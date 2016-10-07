@@ -460,7 +460,7 @@ body.template-front-page #page .widget-area {
 	display: none;
 }
 
-.home #secondary #text-3 {
+.home #secondary .widget:first-child {
 	display: block;
 	background: url('http://2014.new-site.wordcamp.dev/wp-content/uploads/sites/45/2016/10/bordeaux-bourse.jpg') no-repeat center;
 	height: 495px;
@@ -475,19 +475,19 @@ body.template-front-page #page .widget-area {
 	margin-top: 80px;
 }
 
-.home #secondary #text-3 .textwidget {
+.home #secondary .widget:first-child .textwidget {
 	padding: 0;
 	line-height: 0;
 }
 
-.home #secondary #text-3 #chamada-principal {
+.home #secondary .widget:first-child #chamada-principal {
 	overflow: hidden;
 	max-width: 830px;
 	margin: 0 auto;
 	align-items: center;
 }
 
-.home #secondary #text-3 #chamada-principal #home-logo {
+.home #secondary .widget:first-child #chamada-principal #home-logo {
 	max-width: 300px;
 }
 
@@ -502,18 +502,18 @@ body.template-front-page #page .widget-area {
 	color: #fff;
 }
 
-.home #secondary #text-3 #chamada-principal .btn {
+.home #secondary .widget:first-child #chamada-principal .btn {
 	color: #fff;
 }
 
-.home #secondary #text-3 #register-widget {
+.home #secondary .widget:first-child #register-widget {
 	background-color: #ebebeb;
 	height: 175px;
 	line-height: 20px;
 	padding: 60px 0 0;
 }
 
-.home #secondary #text-3 #register-widget h2 {
+.home #secondary .widget:first-child #register-widget h2 {
 	color: rgba(255, 255, 255, 0.65);
 	font-size: 20px;
 	font-weight: 600;
@@ -523,7 +523,7 @@ body.template-front-page #page .widget-area {
 	text-transform: uppercase;
 }
 
-.home #secondary #text-3 #register-widget .button {
+.home #secondary .widget:first-child #register-widget .button {
 	background-color: rgba(255, 255, 255, 0.65);
 	border-radius: 5px;
 	color: #fff;
@@ -538,13 +538,13 @@ body.template-front-page #page .widget-area {
 	transition: all .5s ease;
 }
 
-.home #secondary #text-3 #register-widget .button:hover {
+.home #secondary .widget:first-child #register-widget .button:hover {
 	background-color: #640034;
 	color: #fff;
 	text-decoration: none;
 }
 
-.home #secondary #text-3 .header-widget-inner {
+.home #secondary .widget:first-child .header-widget-inner {
 	padding: 120px 20px 0;
 }
 
