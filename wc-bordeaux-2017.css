@@ -1,3 +1,5 @@
+@media (min-width:545px){[class*=" grid"]>*,[class^=grid]>*{box-sizing:border-box;min-width:0;min-height:0}[class*=" grid"].has-gutter,[class^=grid].has-gutter{margin-right:-.5rem;margin-left:-.5rem}[class*=" grid"].has-gutter>*,[class^=grid].has-gutter>*{margin-right:.5rem;margin-left:.5rem}[class*=" grid"].has-gutter-l,[class^=grid].has-gutter-l{margin-right:-1rem;margin-left:-1rem}[class*=" grid"].has-gutter-l>*,[class^=grid].has-gutter-l>*{margin-right:1rem;margin-left:1rem}[class*=" grid"].has-gutter-xl,[class^=grid].has-gutter-xl{margin-right:-2rem;margin-left:-2rem}[class*=" grid"].has-gutter-xl>*,[class^=grid].has-gutter-xl>*{margin-right:2rem;margin-left:2rem}.grid{display:-webkit-box;display:-ms-flexbox;display:flex}.grid>*{-webkit-box-flex:1;-ms-flex:1 1 0%;flex:1 1 0%}[class*=" grid-"],[class^=grid-]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap}[class*=" grid-"]>*,[class^=grid-]>*{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:calc(100% - .01px)}[class*=" grid-"].has-gutter>*,[class^=grid-].has-gutter>*{width:calc(100% - 1rem - .01px)}[class*=" grid-"].has-gutter-l>*,[class^=grid-].has-gutter-l>*{width:calc(100% - 2rem - .01px)}[class*=" grid-"].has-gutter-xl>*,[class^=grid-].has-gutter-xl>*{width:calc(100% - 4rem - .01px)}[class*=grid-2]>*{width:calc(100% * 1 / 2 - .01px)}[class*=grid-2].has-gutter>*{width:calc(100% * 1 / 2 - 1rem - .01px)}[class*=grid-2].has-gutter-l>*{width:calc(100% * 1 / 2 - 2rem - .01px)}[class*=grid-2].has-gutter-xl>*{width:calc(100% * 1 / 2 - 4rem - .01px)}[class*=grid-3]>*{width:calc(100% * 1 / 3 - .01px)}[class*=grid-3].has-gutter>*{width:calc(100% * 1 / 3 - 1rem - .01px)}[class*=grid-3].has-gutter-l>*{width:calc(100% * 1 / 3 - 2rem - .01px)}[class*=grid-3].has-gutter-xl>*{width:calc(100% * 1 / 3 - 4rem - .01px)}[class*=grid-4]>*{width:calc(100% * 1 / 4 - .01px)}[class*=grid-4].has-gutter>*{width:calc(100% * 1 / 4 - 1rem - .01px)}[class*=grid-4].has-gutter-l>*{width:calc(100% * 1 / 4 - 2rem - .01px)}[class*=grid-4].has-gutter-xl>*{width:calc(100% * 1 / 4 - 4rem - .01px)}[class*=grid-5]>*{width:calc(100% * 1 / 5 - .01px)}[class*=grid-5].has-gutter>*{width:calc(100% * 1 / 5 - 1rem - .01px)}[class*=grid-5].has-gutter-l>*{width:calc(100% * 1 / 5 - 2rem - .01px)}[class*=grid-5].has-gutter-xl>*{width:calc(100% * 1 / 5 - 4rem - .01px)}[class*=grid-6]>*{width:calc(100% * 1 / 6 - .01px)}[class*=grid-6].has-gutter>*{width:calc(100% * 1 / 6 - 1rem - .01px)}[class*=grid-6].has-gutter-l>*{width:calc(100% * 1 / 6 - 2rem - .01px)}[class*=grid-6].has-gutter-xl>*{width:calc(100% * 1 / 6 - 4rem - .01px)}[class*=grid-7]>*{width:calc(100% * 1 / 7 - .01px)}[class*=grid-7].has-gutter>*{width:calc(100% * 1 / 7 - 1rem - .01px)}[class*=grid-7].has-gutter-l>*{width:calc(100% * 1 / 7 - 2rem - .01px)}[class*=grid-7].has-gutter-xl>*{width:calc(100% * 1 / 7 - 4rem - .01px)}[class*=grid-8]>*{width:calc(100% * 1 / 8 - .01px)}[class*=grid-8].has-gutter>*{width:calc(100% * 1 / 8 - 1rem - .01px)}[class*=grid-8].has-gutter-l>*{width:calc(100% * 1 / 8 - 2rem - .01px)}[class*=grid-8].has-gutter-xl>*{width:calc(100% * 1 / 8 - 4rem - .01px)}[class*=grid-9]>*{width:calc(100% * 1 / 9 - .01px)}[class*=grid-9].has-gutter>*{width:calc(100% * 1 / 9 - 1rem - .01px)}[class*=grid-9].has-gutter-l>*{width:calc(100% * 1 / 9 - 2rem - .01px)}[class*=grid-9].has-gutter-xl>*{width:calc(100% * 1 / 9 - 4rem - .01px)}[class*=grid-10]>*{width:calc(100% * 1 / 10 - .01px)}[class*=grid-10].has-gutter>*{width:calc(100% * 1 / 10 - 1rem - .01px)}[class*=grid-10].has-gutter-l>*{width:calc(100% * 1 / 10 - 2rem - .01px)}[class*=grid-10].has-gutter-xl>*{width:calc(100% * 1 / 10 - 4rem - .01px)}[class*=grid-11]>*{width:calc(100% * 1 / 11 - .01px)}[class*=grid-11].has-gutter>*{width:calc(100% * 1 / 11 - 1rem - .01px)}[class*=grid-11].has-gutter-l>*{width:calc(100% * 1 / 11 - 2rem - .01px)}[class*=grid-11].has-gutter-xl>*{width:calc(100% * 1 / 11 - 4rem - .01px)}[class*=grid-12]>*{width:calc(100% * 1 / 12 - .01px)}[class*=grid-12].has-gutter>*{width:calc(100% * 1 / 12 - 1rem - .01px)}[class*=grid-12].has-gutter-l>*{width:calc(100% * 1 / 12 - 2rem - .01px)}[class*=grid-12].has-gutter-xl>*{width:calc(100% * 1 / 12 - 4rem - .01px)}}.push{margin-left:auto}.pull{margin-right:auto}.grid-item-first{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.grid-item-last{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}[class*="--reverse"]{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}@media (min-width:545px){.full,.one-half{-webkit-box-flex:0}.full{-ms-flex:0 0 auto;flex:0 0 auto;width:calc(100% - .01px)}.has-gutter .full{width:calc(100% - 1rem - .01px)}.has-gutter-l .full{width:calc(100% - 2rem - .01px)}.has-gutter-xl .full{width:calc(100% - 4rem - .01px)}.one-half{-ms-flex:0 0 auto;flex:0 0 auto;width:calc(50% - .01px)}.has-gutter .one-half{width:calc(50% - 1rem - .01px)}.has-gutter-l .one-half{width:calc(50% - 2rem - .01px)}.has-gutter-xl .one-half{width:calc(50% - 4rem - .01px)}.one-third{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:calc(100% / 3 - .01px)}.has-gutter .one-third{width:calc(100% / 3 - 1rem - .01px)}.has-gutter-l .one-third{width:calc(100% / 3 - 2rem - .01px)}.has-gutter-xl .one-third{width:calc(100% / 3 - 4rem - .01px)}.one-quarter{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:calc(100% / 4 - .01px)}.has-gutter .one-quarter{width:calc(100% / 4 - 1rem - .01px)}.has-gutter-l .one-quarter{width:calc(100% / 4 - 2rem - .01px)}.has-gutter-xl .one-quarter{width:calc(100% / 4 - 4rem - .01px)}.one-fifth{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:calc(100% / 5 - .01px)}.has-gutter .one-fifth{width:calc(100% / 5 - 1rem - .01px)}.has-gutter-l .one-fifth{width:calc(100% / 5 - 2rem - .01px)}.has-gutter-xl .one-fifth{width:calc(100% / 5 - 4rem - .01px)}.two-thirds{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:calc(100% / 3 * 2 - .01px)}.has-gutter .two-thirds{width:calc(100% / 3 * 2 - 1rem - .01px)}.has-gutter-l .two-thirds{width:calc(100% / 3 * 2 - 2rem - .01px)}.has-gutter-xl .two-thirds{width:calc(100% / 3 * 2 - 4rem - .01px)}.three-quarters{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:calc(100% / 4 * 3 - .01px)}.has-gutter .three-quarters{width:calc(100% / 4 * 3 - 1rem - .01px)}.has-gutter-l .three-quarters{width:calc(100% / 4 * 3 - 2rem - .01px)}.has-gutter-xl .three-quarters{width:calc(100% / 4 * 3 - 4rem - .01px)}}@media (min-width:545px) and (max-width:768px){[class*="-small-4"]>*{width:calc(100% / 4 - .01px)}[class*="-small-4"].has-gutter>*{width:calc(100% / 4 - 1rem - .01px)}[class*="-small-4"].has-gutter-l>*{width:calc(100% / 4 - 2rem - .01px)}[class*="-small-4"].has-gutter-xl>*{width:calc(100% / 4 - 4rem - .01px)}[class*="-small-3"]>*{width:calc(100% / 3 - .01px)}[class*="-small-3"].has-gutter>*{width:calc(100% / 3 - 1rem - .01px)}[class*="-small-3"].has-gutter-l>*{width:calc(100% / 3 - 2rem - .01px)}[class*="-small-3"].has-gutter-xl>*{width:calc(100% / 3 - 4rem - .01px)}[class*="-small-2"]>*{width:calc(100% / 2 - .01px)}[class*="-small-2"].has-gutter>*{width:calc(100% / 2 - 1rem - .01px)}[class*="-small-2"].has-gutter-l>*{width:calc(100% / 2 - 2rem - .01px)}[class*="-small-2"].has-gutter-xl>*{width:calc(100% / 2 - 4rem - .01px)}[class*="-small-1"]>*{width:calc(100% - .01px)}[class*="-small-1"].has-gutter>*{width:calc(100% - 1rem - .01px)}[class*="-small-1"].has-gutter-l>*{width:calc(100% - 2rem - .01px)}[class*="-small-1"].has-gutter-xl>*{width:calc(100% - 4rem - .01px)}}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -16,7 +18,7 @@
 }
 
 body {
-	background-color: #e49d00;
+	background-color: #640034;
 	color: #1f3542;
 	font-family: 'Roboto', sans-serif;
 }
@@ -47,7 +49,7 @@ h2 {
 }
 
 .entry-content h2 {
-	color: #e49d00;
+	color: #640034;
 	font-size: 20px;
 	line-height: 24px;
 	font-weight: 600;
@@ -57,7 +59,7 @@ h2 {
 .entry-content h2 a,
 .entry-content h2 a:hover,
 .entry-content h2 a:visited {
-	color: #e49d00;
+	color: #640034;
 }
 
 h3 {
@@ -98,7 +100,7 @@ h4.sponsor-level-title {
 }
 
 .btn-primary {
-	background-color: #e49d00;
+	background-color: #640034;
 	color: #fff;
 	transition: all .5s ease;
 }
@@ -114,7 +116,7 @@ h4.sponsor-level-title {
 }
 
 .btn-quero-palestrar a {
-	color: #e49d00 !important;
+	color: #640034 !important;
 	text-decoration: none;
 }
 
@@ -130,7 +132,7 @@ h4.sponsor-level-title {
 
 input#searchsubmit,
 input[type="submit"] {
-	background: #e49d00;
+	background: #640034;
 	color: #fff;
 	border: none;
 	border-radius: 2px;
@@ -147,7 +149,7 @@ input[type="submit"]:hover {
 }
 
 .site-header {
-	background-color: #e49d00;
+	background-color: #640034;
 	height: 89px;
 	padding: 0;
 	position: fixed;
@@ -155,13 +157,13 @@ input[type="submit"]:hover {
 	width: 100%;
 }
 
-.menu-menu-container {
+.menu-main-menu-container {
 	clear: both;
-	background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-logotipo-02.png') no-repeat center left;
+	background: transparent url('http://2014.new-site.wordcamp.dev/wp-content/uploads/sites/45/2016/10/wcbx_logo_paysage_blanc.png') no-repeat center left;
 	background-size: 200px auto;
 }
 
-.menu-menu-container::after {
+.menu-main-menu-container::after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -279,7 +281,7 @@ input[type="submit"]:hover {
 .main-navigation li ul li a {
 	background-color: #fff;
 	border-bottom: solid 1px #e8e8e8;
-	color: #e49d00 !important;
+	color: #640034 !important;
 	font-size: 14px;
 }
 
@@ -352,7 +354,7 @@ body.home #primary {
 
 body.home #primary::before {
 	background-color: #fff;
-	color: #e49d00;
+	color: #640034;
 	content: 'Blog';
 	display: inline-block;
 	font-family: 'Roboto', sans-serif;
@@ -458,9 +460,9 @@ body.template-front-page #page .widget-area {
 	display: none;
 }
 
-.home #secondary #text-4 {
+.home #secondary #text-3 {
 	display: block;
-	background: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wordcamp_bh_bg_header.jpg') no-repeat top center;
+	background: url('http://2014.new-site.wordcamp.dev/wp-content/uploads/sites/45/2016/10/bordeaux-bourse.jpg') no-repeat center;
 	height: 495px;
 	padding: 60px 0 0;
 	overflow: hidden;
@@ -473,38 +475,45 @@ body.template-front-page #page .widget-area {
 	margin-top: 80px;
 }
 
-.home #secondary #text-4 .textwidget {
+.home #secondary #text-3 .textwidget {
 	padding: 0;
 	line-height: 0;
 }
 
-.home #secondary #text-4 #chamada-principal {
+.home #secondary #text-3 #chamada-principal {
 	overflow: hidden;
 	max-width: 830px;
 	margin: 0 auto;
+	align-items: center;
 }
 
-.home #secondary #text-4 #chamada-principal #home-logo,
-.home #secondary #text-4 #chamada-principal #infos-principais {
-	float: left;
+.home #secondary #text-3 #chamada-principal #home-logo {
+	max-width: 300px;
 }
 
-.home #secondary #text-4 #chamada-principal #infos-principais {
-	margin: 60px 0 0 50px;
+
+#infos-principais p {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.5rem;
 }
 
-.home #secondary #text-4 #chamada-principal .btn {
+#infos-principais i {
 	color: #fff;
 }
 
-.home #secondary #text-4 #register-widget {
+.home #secondary #text-3 #chamada-principal .btn {
+	color: #fff;
+}
+
+.home #secondary #text-3 #register-widget {
 	background-color: #ebebeb;
 	height: 175px;
 	line-height: 20px;
 	padding: 60px 0 0;
 }
 
-.home #secondary #text-4 #register-widget h2 {
+.home #secondary #text-3 #register-widget h2 {
 	color: rgba(255, 255, 255, 0.65);
 	font-size: 20px;
 	font-weight: 600;
@@ -514,7 +523,7 @@ body.template-front-page #page .widget-area {
 	text-transform: uppercase;
 }
 
-.home #secondary #text-4 #register-widget .button {
+.home #secondary #text-3 #register-widget .button {
 	background-color: rgba(255, 255, 255, 0.65);
 	border-radius: 5px;
 	color: #fff;
@@ -529,17 +538,17 @@ body.template-front-page #page .widget-area {
 	transition: all .5s ease;
 }
 
-.home #secondary #text-4 #register-widget .button:hover {
-	background-color: #e49d00;
+.home #secondary #text-3 #register-widget .button:hover {
+	background-color: #640034;
 	color: #fff;
 	text-decoration: none;
 }
 
-.home #secondary #text-4 .header-widget-inner {
+.home #secondary #text-3 .header-widget-inner {
 	padding: 120px 20px 0;
 }
 
-.home #secondary #text-6 {
+.home #secondary #text-5 {
 	display: block;
 	background: #F6F6F6;
 	display: block;
@@ -553,19 +562,19 @@ body.template-front-page #page .widget-area {
 	margin: 0;
 }
 
-.home #secondary #text-6 .textwidget {
+.home #secondary #text-5 .textwidget {
 	max-width: 982px;
 	margin: 0 auto;
 	padding: 0;
 }
 
-.home #secondary #text-6 .textwidget::after {
+.home #secondary #text-5 .textwidget::after {
 	content: '';
 	clear: both;
 	display: block;
 }
 
-.home #secondary #text-6 .header-widget {
+.home #secondary #text-5 .header-widget {
 	background: none;
 	border-radius: 0;
 	box-shadow: none;
@@ -576,7 +585,7 @@ body.template-front-page #page .widget-area {
 	width: 33.33%;
 }
 
-.home #secondary #text-6 .header-widget h4 {
+.home #secondary #text-5 .header-widget h4 {
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -585,38 +594,38 @@ body.template-front-page #page .widget-area {
 	text-transform: uppercase;
 }
 
-.home #secondary #text-6 .header-widget a {
-	color: #e49d00;
+.home #secondary #text-5 .header-widget a {
+	color: #640034;
 	text-decoration: none;
 	transition: all .5s ease;
 }
 
-.home #secondary #text-6 .header-widget a:hover {
+.home #secondary #text-5 .header-widget a:hover {
 	color: #333;
 	text-decoration: none;
 }
 
-.home #secondary #text-6 .header-widget p {
+.home #secondary #text-5 .header-widget p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 }
 
-.home #secondary #text-6 .header-widget-inner {
+.home #secondary #text-5 .header-widget-inner {
 	padding: 110px 35px 0;
 }
 
-.home #secondary #text-6 .attend-widget .header-widget-inner {
+.home #secondary #text-5 .attend-widget .header-widget-inner {
 	background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_2.png') no-repeat top center;
 	background-size: 72px 74px;
 }
 
-.home #secondary #text-6 .sponsor-widget .header-widget-inner {
+.home #secondary #text-5 .sponsor-widget .header-widget-inner {
 	background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_1.png') no-repeat top center;
 	background-size: 72px 74px;
 }
 
-.home #secondary #text-6 .speaker-widget .header-widget-inner {
+.home #secondary #text-5 .speaker-widget .header-widget-inner {
 	background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_3.png') no-repeat top center;
 	background-size: 72px 74px;
 }
@@ -704,7 +713,7 @@ body.full-width #primary {
 	color: #fff;
 	margin: 0 auto;
 	text-align: right;
-	background: #e49d00;
+	background: #640034;
 	max-width: 100%;
 	padding: 0;
 }
@@ -725,7 +734,7 @@ body.full-width #primary {
 }
 
 .site-info::after {
-	content: "WordCamp Belo Horizonte - 2016";
+	content: "WordCamp Bordeaux - 2017";
 }
 
 .single-author .entry-meta .by-author {
@@ -793,7 +802,7 @@ body.full-width #primary {
 }
 
 .entry-header .entry-title a {
-	color: #e49d00;
+	color: #640034;
 	transition: all .5s ease;
 }
 
@@ -886,7 +895,7 @@ body.archive .entry-content {
 .comment-content a,
 .entry-content a:visited,
 .comment-content a:visited {
-	color: #e49d00;
+	color: #640034;
 	text-decoration: underline;
 }
 
@@ -913,7 +922,7 @@ body.archive .entry-content {
 }
 
 #page .more-link:hover {
-	background-color: #e49d00;
+	background-color: #640034;
 	color: #fff;
 	text-decoration: none;
 }
@@ -1033,18 +1042,18 @@ body.blog .comments-link {
 	margin-top: 24px;
 	font-size: 14px;
 	line-height: 18px;
-	color: #e49d00;
+	color: #640034;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 }
 
 #page footer.entry-meta a {
-	color: #e49d00;
+	color: #640034;
 	text-decoration: underline;
 }
 
 #page footer.entry-meta a:hover {
-	color: #e49d00;
+	color: #640034;
 	text-decoration: none;
 }
 
@@ -1103,7 +1112,7 @@ body.single .entry-content {
 
 .nav-previous a,
 .nav-next a {
-	color: #e49d00;
+	color: #640034;
 	padding: 0;
 	display: block;
 	background: none;
@@ -1131,7 +1140,7 @@ body.single .entry-content {
 }
 
 .widget-title {
-	color: #e49d00;
+	color: #640034;
 	font-size: 20px;
 	line-height: 20px;
 	font-weight: 600;
@@ -1146,7 +1155,7 @@ body.single .entry-content {
 }
 
 .widget h5 {
-	color: #e49d00;
+	color: #640034;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 14px;
@@ -1157,7 +1166,7 @@ body.single .entry-content {
 }
 
 #page .widget h5 a {
-	color: #e49d00;
+	color: #640034;
 	text-decoration: none;
 }
 
@@ -1420,7 +1429,7 @@ article.type-wcb_speaker .entry-content h2 {
 .wcpt-session-meta {
 	font-size: 12px;
 	padding: 5px 10px;
-	border-left: 4px solid #e49d00;
+	border-left: 4px solid #640034;
 	background: #ffd;
 }
 
@@ -1682,7 +1691,7 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 	.site-header {
 			background: none;
-			background-color: #e49d00;
+			background-color: #640034;
 			height: auto;
 			position: absolute;
 			z-index: 9999;
@@ -1973,8 +1982,8 @@ table.wcpt-schedule td {
 }
 
 table.wcpt-schedule th {
-	background: #e49d00;
-	border: 1px solid #e49d00 !important;
+	background: #640034;
+	border: 1px solid #640034 !important;
 	color: #fff;
 	text-align: center;
 }
@@ -1994,7 +2003,7 @@ span.wcpt-session-speakers {
 }
 
 span.wcpt-session-speakers a {
-	color: #e49d00 !important;
+	color: #640034 !important;
 }
 
 a.wcpt-session-title {
