@@ -462,10 +462,10 @@ body.template-front-page #page .widget-area {
 
 .home #secondary .widget:first-child {
 	display: block;
-	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/bordeaux-bourse.jpg') no-repeat center;
 	height: 495px;
 	padding: 60px 0 0;
 	overflow: hidden;
+	background-color: transparent;
 	text-align: center;
 	width: 100%;
 	margin: 0;
@@ -473,6 +473,18 @@ body.template-front-page #page .widget-area {
 	top: 0;
 	left: 0;
 	margin-top: 80px;
+	z-index: 0;
+}
+.home #secondary .widget:first-child::after {
+  content: "";
+  background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/bordeaux-bourse.jpg') no-repeat center;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .home #secondary .widget:first-child .textwidget {
@@ -491,15 +503,37 @@ body.template-front-page #page .widget-area {
 	max-width: 300px;
 }
 
+#infos-principais {
+
+}
 
 #infos-principais p {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1.1em !important;
+	line-height: 1.2em !important;
+	font-weight: bold;
+	text-shadow: 0 0px 5px #000;
+	padding-top: 0.5em;
+	margin-bottom: 0;
 }
 
 #infos-principais i {
 	color: #fff;
+	text-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+#infos-principais div.grid {
+	justify-content: space-around;
+	position: relative;
+	top: -30px;
+	padding: 1em 0;
+	margin: 0 0.1em 0 0;
+/*	background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0) 100%);
+	background: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0) 100%);*/
+	border-radius: 4px;
+	background-color: rgba(0,0,0,.25);
+	box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
 .home #secondary .widget:first-child #chamada-principal .btn {
