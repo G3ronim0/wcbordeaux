@@ -221,6 +221,37 @@ input[type="submit"]:hover {
 	position: absolute;
 }
 
+.main-navigation li ul {
+	transform: skewx(16deg);
+	left: 16px;
+}
+.main-navigation li ul * {
+	transform: skewx(0);
+}
+.main-navigation li ul li {
+	position: relative;
+	width: 100%;
+}
+.main-navigation li ul li a {
+    position: relative;
+    line-height: 1.5;
+    border-bottom: solid 1px #e8e8e8;
+    font-size: 14px;
+    padding: 10px;
+    width: 100% !important;
+    background-color: #f4f0d0 !important;
+    color: #640034 !important;
+}
+.main-navigation li ul li a:hover {
+	background-color: #9c9990 !important;
+	color: white !important;
+}
+.main-navigation li ul li a::after {
+	content: none;
+	padding : 0;
+	position: static;
+}
+
 .main-navigation li.entradas a::after,
 .main-navigation li.organizadores a::after {
 	content: '';
@@ -290,23 +321,6 @@ input[type="submit"]:hover {
 .main-navigation li a:hover {
 	/*color: rgba(255, 255, 255, 0.65);*/
 	color: white;
-}
-
-.main-navigation li ul li a {
-	background-color: #fff;
-	border-bottom: solid 1px #e8e8e8;
-	color: #640034 !important;
-	font-size: 14px;
-}
-
-.main-navigation li ul li a::after {
-	content: '';
-	padding: 0;
-}
-
-.main-navigation li ul li a:hover {
-	background-color: #fff;
-	color: #333 !important;
 }
 
 .main-navigation .current-menu-item > a,
@@ -1650,6 +1664,10 @@ table.tix_tickets_table td.tix-column-remaining {
 			padding: 0 40px;
 	}
 	.main-navigation li a {
+			font-size: 14px;
+			padding: 0 4px 0 4px;
+	}
+	.main-navigation li li a {
 			font-size: 14px;
 			padding: 0 4px 0 4px;
 	}
