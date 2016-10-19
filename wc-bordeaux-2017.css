@@ -49,9 +49,10 @@ h2 {
 }
 
 .entry-content h2 {
+	display: flex;
 	color: #640034;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 30px;
+	line-height: 34px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -106,7 +107,7 @@ h4.sponsor-level-title {
 }
 
 .btn-primary:hover {
-	background-color: #ffb718;
+	background-color: #606C38;
 	text-decoration: none;
 	transition: all .5s ease;
 }
@@ -142,7 +143,7 @@ input[type="submit"] {
 
 input#searchsubmit:hover,
 input[type="submit"]:hover {
-	background: #ffb718;
+	background: #606c38;
 	color: #fff;
 	text-decoration: none;
 	transition: all .5s ease;
@@ -233,14 +234,14 @@ input[type="submit"]:hover {
 	width: 100%;
 }
 .main-navigation li ul li a {
-    position: relative;
-    line-height: 1.5;
-    border-bottom: solid 1px #e8e8e8;
-    font-size: 14px;
-    padding: 10px;
-    width: 100% !important;
-    background-color: #f4f0d0 !important;
-    color: #640034 !important;
+		position: relative;
+		line-height: 1.5;
+		border-bottom: solid 1px #e8e8e8;
+		font-size: 14px;
+		padding: 10px;
+		width: 100% !important;
+		background-color: #f4f0d0 !important;
+		color: #640034 !important;
 }
 .main-navigation li ul li a:hover {
 	background-color: #9c9990 !important;
@@ -521,15 +522,15 @@ body.template-front-page #page .widget-area {
 	z-index: 0;
 }
 .home #secondary .widget:first-child::after {
-  content: "";
-  background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/bordeaux-bourse.jpg') no-repeat center;
-  opacity: 0.9;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
+	content: "";
+	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/bordeaux-bourse.jpg') no-repeat center;
+	opacity: 0.9;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
 }
 
 .home #secondary .widget:first-child .textwidget {
@@ -942,8 +943,8 @@ body.full-width #primary {
 #page .entry-header h1,
 #page .archive-header h1 {
 	color: #fff;
-	font-size: 28px;
-	line-height: 32px;
+	font-size: 34px;
+	line-height: 38px;
 	text-align: left;
 }
 
@@ -1012,14 +1013,6 @@ body.blog #page .entry-header h1,
 body.archive #page .entry-header h1 {
 	font-size: 22px;
 	line-height: 24px;
-	text-align: left;
-}
-
-#page .entry-header h1,
-#page .page-header h1 {
-	color: #fff;
-	font-size: 28px;
-	line-height: 32px;
 	text-align: left;
 }
 
@@ -1218,7 +1211,7 @@ body.page-template-page-templatesfull-width-php #page footer.entry-meta {
 
 .entry-content {
 	font-size: 14px;
-	padding: 75px 0;
+	padding: 50px 0;
 }
 
 body.single .entry-content {
@@ -1646,6 +1639,41 @@ table.tix_tickets_table td.tix-column-remaining {
 	text-decoration: none;
 }
 
+.contact-form > div {
+	display: flex;
+}
+
+.contact-form label {
+	width: 15em;
+	margin-right: .5em;
+}
+
+.contact-form input:not([type=submit]) {
+ flex: 1; /* fluid width */
+ display: block; /* IE fix */
+ min-width: 0; /* fix for min-width: auto */
+}
+
+.contact-form input:not([type=submit]):focus,
+.contact-form textarea:focus {
+	border-color: #640034;
+	border-color: rgba(100, 0, 52, .5);
+	box-shadow: inset 1px 1px 5px rgba(0,0,0, .2);
+}
+
+.contact-form textarea {
+	flex: 1; /* fluid height */
+	display: block; /* IE fix */
+}
+
+.contact-submit {
+	text-align: right;
+}
+.contact-submit input[type=submit] {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
 @media screen and (max-width: 1500px) {
 	.menu-primary-menu-container::before {
 			background: transparent;
@@ -2021,6 +2049,23 @@ table.tix_tickets_table td.tix-column-remaining {
 			width: 100%;
 			float: none;
 	}
+
+	.contact-form > div {
+		display: block;
+	}
+
+	.contact-form label {
+		text-align: left;
+		width: auto;
+	}
+
+	.contact-form input,
+	.contact-form textarea,
+	.contact-form select {
+		 width: 98% !important;
+		 max-width: 98% !important;
+	}
+
 }
 
 @media screen and (max-width: 439px) {
@@ -2243,25 +2288,39 @@ ul#session-speaker-names li {
 	height: 18px;
 }
 
-.page-template-default #content .entry-header,
-.single #content .entry-header,
-.error404 #content .entry-header {
-	position: relative;
-	height: 103px;
-}
-
 .page-template-default #content .entry-header h1.entry-title,
 .single #content .entry-header h1.entry-title,
 .error404 #content .entry-header h1.entry-title {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	display: flex;
+	margin-top: 50px;
+	color: #640034;
 }
 
-@media (min-width: 900px) {
-	.page-template-default #content .entry-header,
-	.single #content .entry-header,
-	.error404 #content .entry-header {
-			height: 160px;
-	}
+.page-template-default #content .entry-header h1.entry-title::before,
+.single #content .entry-header h1.entry-title::before,
+.error404 #content .entry-header h1.entry-title::before {
+	display: block; /* IE fix */
+	content: "";
+	flex:1;
+	align-self: center;
+	border-bottom: 1px solid CurrentColor;
+	margin-right: .3em;
+}
+
+.page-template-default #content .entry-header h1.entry-title::after,
+.single #content .entry-header h1.entry-title::after,
+.error404 #content .entry-header h1.entry-title::after,
+.entry-content h2::after {
+	display: block; /* IE fix */
+	content: "";
+	flex:1;
+	align-self: center;
+	border-bottom: 1px solid CurrentColor;
+	margin-left: .3em
+}
+
+.page-slug-sponsors .entry-content h2::before {
+	display: block; /* IE fix */
+	content: "\f313";
+	font-family: dashicons;
 }
