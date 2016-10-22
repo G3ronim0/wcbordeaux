@@ -150,12 +150,23 @@ input[type="submit"]:hover {
 }
 
 .site-header {
-	background-color: #640034;
+	display: flex;
+	justify-content: space-between;
 	height: 89px;
-	padding: 0;
-	position: fixed;
-	z-index: 9999;
 	width: 100%;
+	padding: 0;
+	background: #640034;
+}
+
+.site-title a {
+	width: 230px;
+	height: 89px;
+	text-indent: -9999px;
+	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/wcbordeaux-2017-logo-h.png') no-repeat;
+}
+.main-navigation {
+	flex: 1;
+	z-index: 9999;
 }
 
 .menu-principal-container {
@@ -377,14 +388,16 @@ body.home .site {
 }
 
 body.home #primary {
-	margin: 0;
-	padding: 80px 4% 0 0;
+	max-width: 940px;
+	margin: 0 auto;
+	margin-top: 3em;
+	padding: 80px 0;
 }
 
 body.home #primary::before {
 	background-color: #fff;
 	color: #640034;
-	content: 'Blog';
+	content: 'Actualités';
 	display: inline-block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 34px;
@@ -400,7 +413,7 @@ body.home #primary::before {
 }
 
 body.home #primary::after {
-	background-color: #e8e8e8;
+	background-color: #640034;
 	content: '';
 	display: block;
 	height: 1px;
@@ -414,6 +427,7 @@ body.home #primary::after {
 body.home #secondary {
 	margin: 0;
 	padding: 0;
+	background:
 }
 
 body.template-front-page #page #main {
@@ -431,7 +445,7 @@ body.template-front-page #page .site-content {
 		padding: 0 20px 0 0 !important;
 	}
 	.main-navigation ul.nav-menu {
-		margin-left: 80px;
+		/*margin-left: 80px;*/
 	}
 	.menu-principal-container::before {
 		/* le verre seul, à supprimer si ok */
@@ -506,31 +520,30 @@ body.template-front-page #page .widget-area {
 	display: none;
 }
 
+
+body.home #main {
+		display: flex;
+		flex-direction: column-reverse;
+		max-width: 100%;
+		margin-top: 0;
+		padding: 0;
+}
+
+body.home #secondary,
+body.home #primary {
+	width: auto;
+}
+
+
 .home #secondary .widget:first-child {
 	display: block;
-	height: 495px;
 	padding: 60px 0 0;
 	overflow: hidden;
-	background-color: transparent;
+	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/bordeaux-bourse.jpg') no-repeat center;
 	text-align: center;
 	width: 100%;
 	margin: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin-top: 80px;
 	z-index: 0;
-}
-.home #secondary .widget:first-child::after {
-	content: "";
-	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/bordeaux-bourse.jpg') no-repeat center;
-	opacity: 0.9;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	z-index: -1;
 }
 
 .home #secondary .widget:first-child .textwidget {
@@ -598,8 +611,9 @@ body.template-front-page #page .widget-area {
 		flex-wrap: nowrap !important;
 	}
 
-	.home #secondary .widget:first-child .textwidget {
-		transform: translateY(0);
+	.site-header {
+		flex-direction: column;
+		height: auto;
 	}
 }
 
@@ -699,12 +713,6 @@ body.template-front-page #page .widget-area {
 	display: block;
 	background: #F6F6F6;
 	display: block;
-	float: none;
-	height: 360px;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	top: 635px;
 	width: 100%;
 	margin: 0;
 }
@@ -726,10 +734,9 @@ body.template-front-page #page .widget-area {
 	border-radius: 0;
 	box-shadow: none;
 	clear: none;
-	float: left;
 	padding: 20px 0 0;
 	text-align: center;
-	width: 33.33%;
+
 }
 
 .home #secondary .widget:nth-child(2) .header-widget h4 {
@@ -768,12 +775,12 @@ body.template-front-page #page .widget-area {
 }
 
 .home #secondary .widget:nth-child(2) .sponsor-widget .header-widget-inner {
-	background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_1.png') no-repeat top center;
+	background: transparent url('http://2014.new-site.wordcamp.dev/wp-content/uploads/sites/45/2016/10/sponsors.png') no-repeat top center;
 	background-size: 72px 74px;
 }
 
 .home #secondary .widget:nth-child(2) .speaker-widget .header-widget-inner {
-	background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_3.png') no-repeat top center;
+	background: transparent url('http://2014.new-site.wordcamp.dev/wp-content/uploads/sites/45/2016/10/microphone2.png') no-repeat top center;
 	background-size: 72px 74px;
 }
 
@@ -802,7 +809,6 @@ a.sponsor-logo:nth-child(2n+2) {
 	clear: both;
 }
 
-.site-title,
 .site-description {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute;
@@ -935,7 +941,6 @@ body.full-width #primary {
 
 #page .entry-title,
 #page .archive-title {
-	display: inline-block;
 	margin: 0;
 	position: relative;
 }
@@ -1711,6 +1716,11 @@ table.tix_tickets_table td.tix-column-remaining {
 	.menu-primary-menu-container::before {
 			display: none;
 	}
+
+	.home #content {
+		padding: 0 35px;
+	}
+
 }
 
 @media screen and (max-width: 900px) {
@@ -1739,10 +1749,7 @@ table.tix_tickets_table td.tix-column-remaining {
 			height: 159px;
 			padding: 30px 0 0;
 	}
-	#page #text-5 {
-			height: 281px;
-			top: 616px;
-	}
+
 	#page #text-5 .header-widget {
 			padding: 40px 0 0;
 	}
@@ -1754,9 +1761,7 @@ table.tix_tickets_table td.tix-column-remaining {
 	#main {
 			margin: 89px auto 0;
 	}
-	body.home #main {
-			margin: 1035px auto 0;
-	}
+
 	body.page-template-full-width #page .entry-header {
 			padding: 33px 0;
 			overflow: hidden;
@@ -1859,9 +1864,7 @@ table.tix_tickets_table td.tix-column-remaining {
 	.widget-area .widget {
 
 	}
-	.home #secondary .widget:first-child {
-		margin-top: 50px;
-	}
+
 	.menu-principal-container::before {
 		background: none;
 		width:0;
@@ -1882,15 +1885,11 @@ table.tix_tickets_table td.tix-column-remaining {
 	#main {
 			margin: 48px auto 0;
 	}
-	body.home #main {
-			margin: 1035px auto 0;
-	}
+
 	.site-header {
 			background: none;
 			background-color: #640034;
 			height: auto;
-			position: absolute;
-			z-index: 9999;
 	}
 	body.page-template-full-width #page .entry-header h1 {
 			font-size: 24px;
@@ -2088,9 +2087,7 @@ table.tix_tickets_table td.tix-column-remaining {
 			max-width: 940px;
 			overflow: hidden;
 	}
-	body.home #main {
-			margin: 1035px auto 0;
-	}
+
 	.menu-primary-menu-container {
 			/*background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/wcba-logo-web2.png') no-repeat top left;*/
 			padding: 0;
@@ -2303,7 +2300,7 @@ ul#session-speaker-names li {
 	content: "";
 	flex:1;
 	align-self: center;
-	border-bottom: 1px solid CurrentColor;
+	border-bottom: 1px solid #640034;
 	margin-right: .3em;
 }
 
@@ -2315,12 +2312,58 @@ ul#session-speaker-names li {
 	content: "";
 	flex:1;
 	align-self: center;
-	border-bottom: 1px solid CurrentColor;
+	border-bottom: 1px solid #640034;
 	margin-left: .3em
+}
+
+.entry-content h2::after {
+	border-color: #ededed;
 }
 
 .page-slug-sponsors .entry-content h2::before {
 	display: block; /* IE fix */
 	content: "\f313";
 	font-family: dashicons;
+}
+
+.home #content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.home .hentry {
+	width: 45%;
+}
+
+.home .entry-header {
+	position: relative;
+	min-height: 214px;
+	background: rgba(100, 0, 52, .5) url('http://2017.bordeaux.wordcamp.org/files/2016/10/wcbordeaux-2017-logo-h.png') no-repeat center;
+}
+
+.home .entry-header img.wp-post-image {
+		max-height: 210px;
+		margin-bottom: 0;
+}
+
+.home .entry-title {
+	position: absolute;
+	bottom: 1px;
+}
+
+.home .entry-title a {
+	background: #640034;
+	color: #fff;
+	line-height: 45px;
+	text-align: center;
+}
+
+.home .entry-title a:hover {
+	background: #606c38;
+	color: #fff;
+}
+
+.home .entry-content {
+	display: none;
 }
