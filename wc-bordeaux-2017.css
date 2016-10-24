@@ -153,6 +153,7 @@ input[type="submit"]:hover {
 .site-header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	height: 89px;
 	width: 100%;
 	padding: 0;
@@ -375,7 +376,7 @@ body.home .site {
 }
 
 body.home #primary {
-	max-width: 940px;
+	max-width: 982x;
 	margin: 0 auto;
 	margin-top: 3em;
 	padding: 80px 0;
@@ -427,6 +428,34 @@ body.template-front-page #page .site-content {
 	width: 58%;
 }
 
+.home #secondary .widget:first-child form {
+	max-width: 940px;
+	margin: 0 auto;
+}
+.home #subscribe-submit,
+.home #subscribe-email {
+	float: right;
+	margin-top: -150px;
+	text-align: right;
+}
+
+.home #subscribe-email input {
+	max-width: 535px;
+	height: 26px;
+	margin-right: 1.5em;
+	background: rgba(100,0,52, .1);
+	border: 2px solid #640034;
+	color: #fff;
+	font-weight: bold;
+}
+
+.home #subscribe-submit input {
+	max-width: 535px;
+	margin-right: 1.3em;
+	font-size: 1.2rem;
+		text-transform: uppercase;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1030px) {
 	.main-navigation {
 		padding: 0 20px 0 0 !important;
@@ -466,27 +495,11 @@ body.template-front-page #page .site-content {
 	}
 }
 
-@media (max-width: 510px) {
-/*	#home-logo {
-			max-width: 150px !important;
-			width: 100% !important;
-			margin: 0 auto!important;
-			float: none !important;
-	}
-	#infos-principais {
-			width: 80% !important;
-			margin: 0 auto!important;
-			float: none !important;
-	}
-	#infos-principais .btn {
-			display: none;
-	}*/
-}
-
 .home #content {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	max-width: 940px;
 }
 
 .home .hentry {
@@ -541,15 +554,14 @@ body.home #main {
 		padding: 0;
 }
 
-body.home #secondary,
-body.home #primary {
+body.home #secondary {
 	width: auto;
 }
 
 
 .home #secondary .widget:first-child {
 	display: block;
-	padding: 60px 0 0;
+	padding-bottom: 40px;
 	overflow: hidden;
 	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/2017-wcbordeaux-bg01.jpg') no-repeat center;
 	background-size: cover;
@@ -637,6 +649,16 @@ body.home #primary {
 		max-height: auto;
 	}
 
+	.home #subscribe-email,
+	.home #subscribe-submit {
+		float: none;
+		margin-top: 0;
+	}
+
+	.home #subscribe-submit {
+		margin-top: -66px;
+	}
+
 }
 
 @media (max-width: 570px) {
@@ -648,6 +670,39 @@ body.home #primary {
 		font-weight: normal !important;
 		font-size: 14px !important;
 		text-shadow: 0 1px 2px #000 !important;
+	}
+}
+
+@media (max-width: 510px) {
+/*	#home-logo {
+			max-width: 150px !important;
+			width: 100% !important;
+			margin: 0 auto!important;
+			float: none !important;
+	}
+	#infos-principais {
+			width: 80% !important;
+			margin: 0 auto!important;
+			float: none !important;
+	}
+	#infos-principais .btn {
+			display: none;
+	}*/
+
+	.home #subscribe-email,
+	.home #subscribe-submit {
+		display: block;
+		width: 90%;
+		margin-top: 0;
+		margin: 0 auto;
+		text-align:center;
+	}
+	.home #subscribe-email input,
+	.home #subscribe-submit input {
+		margin-right: 0;
+		margin-bottom: 1em;
+		width: 90%;
+		text-align:center;
 	}
 }
 
@@ -988,40 +1043,6 @@ body.archive .archive-header .archive-title a:hover {
 	color: #fff;
 }
 
-body.page-template-full-width #page .entry-header {
-	height: auto;
-	text-align: center;
-	padding: 58px 0;
-}
-
-body.page-template-full-width #page .entry-header h1 {
-	color: #fff;
-	font-size: 42px;
-	line-height: 48px;
-	text-align: center;
-	font-weight: 400;
-}
-
-body.page-template-full-width #page .entry-title:before,
-body.page-template-full-width #page .entry-title:after {
-	content: "";
-	position: absolute;
-	top: 24px;
-	height: 15px;
-	width: 65px;
-	background: url('https://2015.buenosaires.wordcamp.org/files/2015/05/wcba-misc.png') no-repeat;
-	background-size: contain;
-}
-
-body.page-template-full-width #page .entry-title:before {
-	right: 100%;
-	margin-right: 15px;
-}
-
-body.page-template-full-width #page .entry-title:after {
-	left: 100%;
-	margin-left: 15px;
-}
 
 body.blog #page .entry-header,
 body.archive #page .entry-header {
@@ -1786,18 +1807,6 @@ table.tix_tickets_table td.tix-column-remaining {
 			margin: 0 auto;
 	}
 
-	body.page-template-full-width #page .entry-header {
-			padding: 33px 0;
-			overflow: hidden;
-	}
-	body.page-template-full-width #page .entry-header h1 {
-			font-size: 32px;
-			line-height: 38px;
-	}
-	body.page-template-full-width #page .entry-title:before,
-	body.page-template-full-width #page .entry-title:after {
-			top: 19px;
-	}
 	#page .entry-header,
 	#page .archive-header {
 			padding: 14px 0 0;
@@ -1904,14 +1913,7 @@ table.tix_tickets_table td.tix-column-remaining {
 			background-color: #640034;
 			height: auto;
 	}
-	body.page-template-full-width #page .entry-header h1 {
-			font-size: 24px;
-			line-height: 36px;
-	}
-	body.page-template-full-width #page .entry-title:before,
-	body.page-template-full-width #page .entry-title:after {
-			top: 18px;
-	}
+
 	#page .entry-header h1,
 	#page .archive-header h1 {
 			font-size: 18px;
@@ -2300,7 +2302,8 @@ ul#session-speaker-names li {
 
 .page-template-default #content .entry-header h1.entry-title,
 .single #content .entry-header h1.entry-title,
-.error404 #content .entry-header h1.entry-title {
+.error404 #content .entry-header h1.entry-title,
+.page-template-full-width #page .entry-title {
 	display: flex;
 	margin-top: 50px;
 	color: #640034;
@@ -2308,7 +2311,8 @@ ul#session-speaker-names li {
 
 .page-template-default #content .entry-header h1.entry-title::before,
 .single #content .entry-header h1.entry-title::before,
-.error404 #content .entry-header h1.entry-title::before {
+.error404 #content .entry-header h1.entry-title::before,
+.page-template-full-width #page .entry-title::before {
 	display: block; /* IE fix */
 	content: "";
 	flex:1;
@@ -2320,7 +2324,8 @@ ul#session-speaker-names li {
 .page-template-default #content .entry-header h1.entry-title::after,
 .single #content .entry-header h1.entry-title::after,
 .error404 #content .entry-header h1.entry-title::after,
-.entry-content h2::after {
+.entry-content h2::after,
+.page-template-full-width #page .entry-title::after {
 	display: block; /* IE fix */
 	content: "";
 	flex:1;
