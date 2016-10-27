@@ -1060,8 +1060,9 @@ body.home #secondary {
 .home #secondary .widget:first-child {
 	display: block;
 	overflow: hidden;
-	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/2017-wcbordeaux-bg01.jpg') no-repeat center;
+	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/burgundy-426424_1920.jpg') no-repeat center;
 	background-size: cover;
+	height: 640px;
 	text-align: center;
 	width: 100%;
 	margin: 0;
@@ -1069,7 +1070,6 @@ body.home #secondary {
 }
 
 .home #secondary .widget:first-child #chamada-principal {
-	overflow: hidden;
 	max-width: 1200px;
 	margin: 0 auto;
 	align-items: center;
@@ -1077,6 +1077,7 @@ body.home #secondary {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	position: relative;
 }
 
 .home #secondary .widget:first-child #chamada-principal #home-logo {
@@ -1177,6 +1178,9 @@ body.home #secondary {
 	border-radius: 4px;
 	background-color: rgba(0,0,0,.25);
 	box-shadow: 0 0 8px rgba(0,0,0,0.5);
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 #infos-principais p {
