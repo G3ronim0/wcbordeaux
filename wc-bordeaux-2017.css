@@ -1071,7 +1071,7 @@ body.home #secondary {
 
 .home #secondary .widget:first-child #chamada-principal {
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 160px auto 15px;
 	align-items: center;
 	flex-direction: row;
 	display: flex;
@@ -1211,6 +1211,7 @@ body.home #secondary {
 
 .home #secondary .widget:first-child #chamada-principal .btn {
 	color: #fff;
+	display: block;
 }
 
 .home #secondary .widget:first-child #register-widget {
