@@ -1281,7 +1281,9 @@ body.home #secondary {
 	margin: 0 auto;
 	padding-bottom: 1.5em;
 }
-
+#blog_subscription-3 {
+	padding: 30px 0;
+}
 .home #secondary .widget:nth-child(2) .textwidget::after {
 	content: '';
 	clear: both;
@@ -1428,17 +1430,14 @@ body.full-width #primary {
 
 .site-info {
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	line-height: 89px;
+	font-size: 14px;
 	margin: 0 auto;
 	max-width: 1200px;
-	padding: 0 80px;
+	padding: 30px 0;
 }
 
 .site-info a {
 	float: left;
-	font-size: 14px;
-	text-transform: uppercase;
 }
 
 .site-info::after {
