@@ -1403,7 +1403,7 @@ a.sponsor-logo:nth-child(2n+2) {
 
 body.single-attachment #primary,
 body.full-width #primary {
-	max-width: 1200px;
+	max-width: 990px;
 	padding: 0;
 }
 
