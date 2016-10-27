@@ -1086,6 +1086,7 @@ body.home #secondary {
 
 #home-logo img {
 	max-width: 300px;
+	width: 40%;
 }
 
 @media (min-width: 751px) {
