@@ -499,7 +499,6 @@
 :-moz-placeholder { /* Firefox 18- */
 	color: #640034;
 }
-
 body {
 	background-color: #640034;
 	color: #1f3542;
@@ -523,7 +522,12 @@ a:hover {
 	line-height: 24px;
 	text-transform: uppercase;
 }
-
+button, input, select, textarea {
+    border: 1px solid #ccc;
+    font-family: inherit;
+    padding: 6px;
+    padding: 0.428571429rem;
+}
 h2 {
 	font-weight: 600;
 }
@@ -2843,13 +2847,9 @@ ul#session-speaker-names li {
 .sharedaddy.sd-sharing-enabled {
 	margin-top: 30px;
 }
-
-#subscribe-email,
-#subscribe-submit {
-	float: left;
-	margin-bottom: 0;
+#subscribe-email input {
+    width: 93%;
 }
-
 .page-template-default #content .entry-header h1.entry-title,
 .single #content .entry-header h1.entry-title,
 .error404 #content .entry-header h1.entry-title,
