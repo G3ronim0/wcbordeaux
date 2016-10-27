@@ -1893,6 +1893,7 @@ body.single .entry-content {
 	text-align: left;
 }
 .entry-content th {
+	font-size: 13px;
 	line-height: 1.6em;
 }
 .entry-content table,
