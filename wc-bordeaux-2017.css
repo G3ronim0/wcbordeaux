@@ -628,7 +628,7 @@ input[type="submit"] {
 
 input#searchsubmit:hover,
 input[type="submit"]:hover {
-	background: #606c38;
+	background: #71650B;
 	color: #fff;
 	text-decoration: none;
 	transition: all .5s ease;
@@ -696,7 +696,7 @@ input[type="submit"]:hover {
 }
 
 .main-navigation li:hover {
-	background-color: #606c38;
+	background-color: #71650B;
 }
 
 .main-navigation li a {
@@ -1025,7 +1025,7 @@ body.template-front-page #page .site-content {
 }
 
 .home .entry-header .entry-title a:hover {
-	background: #606c38;
+	background: #71650B;
 	color: #fff;
 }
 
