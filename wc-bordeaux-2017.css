@@ -1069,7 +1069,7 @@ body.home #secondary {
 
 .home #secondary .widget:first-child #chamada-principal {
 	max-width: 1200px;
-	margin: 100px auto 15px;
+	margin: 350px auto 15px;
 	align-items: center;
 	flex-direction: row;
 	display: flex;
