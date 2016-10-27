@@ -1368,7 +1368,7 @@ a.sponsor-logo:nth-child(2n+2) {
 }
 
 .site-header {
-	padding: 0;
+	padding: 5px;
 }
 
 #main {
