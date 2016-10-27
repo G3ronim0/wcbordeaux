@@ -524,6 +524,7 @@ a:hover {
 }
 button, input, select, textarea {
     border: 1px solid #ccc;
+    border-radius: 0;
     font-family: inherit;
     padding: 6px;
     padding: 0.428571429rem;
