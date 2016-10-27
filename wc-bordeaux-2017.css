@@ -701,12 +701,14 @@ input[type="submit"]:hover {
 	padding: 0 10px;
 	transform: skewx(16deg);
 }
-.main-navigation li + li > a::before {
-    color: rgba(255,255,255,0.3);
-    content: '/';
-    padding-right: 0px;
-    position: absolute;
-    left: -5px;
+@media (min-width: 768px) {
+	.main-navigation li + li > a::before {
+		color: rgba(255,255,255,0.3);
+		content: '/';
+		padding-right: 0px;
+		position: absolute;
+		left: -5px;
+	}
 }
 .main-navigation li ul {
 	transform: skewx(16deg);
@@ -755,7 +757,7 @@ input[type="submit"]:hover {
 
 .main-navigation li.entradas a::before {
 	font-family: 'FontAwesome';
-	content: '\\\f145';
+	content: '\f145';
 	color: #fff;
 	font-size: 1.4em;
 	margin-right: 10px;
@@ -1882,6 +1884,7 @@ body.single .entry-content {
 }
 
 .entry-content th, .entry-content td {
+	font-size: 14px;
 	padding: 10px;
 	text-align: center;
 	vertical-align: bottom;
@@ -2187,9 +2190,9 @@ table.tix_tickets_table td.tix-column-remaining {
 	text-align: right;
 }
 .contact-form input[type="text"], .contact-form input[type="email"] {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 14px;
+	margin-bottom: 15px;
+	padding: 10px;
+	font-size: 14px;
 }
 .contact-submit input[type=submit] {
 	font-size: 1.2rem;
