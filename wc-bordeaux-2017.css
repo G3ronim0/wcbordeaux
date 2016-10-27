@@ -703,11 +703,14 @@ input[type="submit"]:hover {
 	transform: skewx(16deg);
 }
 
-.main-navigation li a + .main-navigation li a:before {
+.main-navigation li a:after {
 	color: rgba(255,255,255,0.3);
 	content: '/';
 	padding: 0 10px;
 	position: absolute;
+}
+.main-navigation li a:last-of-type {
+	content: none;
 }
 
 .main-navigation li ul {
