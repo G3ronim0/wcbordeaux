@@ -2170,20 +2170,25 @@ table.tix_tickets_table td.tix-column-remaining {
 .contact-form textarea:focus {
 	border-color: #640034;
 	border-color: rgba(100,0,52,.5);
-	box-shadow: inset 1px 1px 5px rgba(0,0,0,.2);
 }
-
 .contact-form textarea {
 	flex: 1;
-/* fluid height */
 	display: block;
-/* IE fix */
 }
-
+.contact-form label span {
+	font-size: 11px;
+}
+.contact-form label {
+	width: 22em;
+}
 .contact-submit {
 	text-align: right;
 }
-
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+}
 .contact-submit input[type=submit] {
 	font-size: 1.2rem;
 	text-transform: uppercase;
@@ -2239,7 +2244,7 @@ table.tix_tickets_table td.tix-column-remaining {
 	.page #main,
 	.single #main {
 		flex-direction: column;
-		padding:  0 2em;
+		padding:	0 2em;
 	}
 
 	.page #secondary,
