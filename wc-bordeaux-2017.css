@@ -1198,9 +1198,9 @@ body.home #secondary {
 #infos-principais > div:first-child {
 	justify-content: space-around;
 	position: relative;
-	padding: 1em 0;
-	margin: 0 .1em 0 0;
-	border-bottom: 1px solid rgba(255,255,255, .1);
+	padding: 0 0 30px;
+	margin: 0 0 30px;
+	border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
 .home #secondary .widget:first-child #chamada-principal .btn {
@@ -1251,9 +1251,6 @@ body.home #secondary {
 	padding: 120px 20px 0;
 }
 
-.home #home-cta > div {
-	padding: 1em;
-}
 
 .home #secondary .widget:nth-child(2) {
 	display: block;
