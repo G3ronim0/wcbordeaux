@@ -2849,7 +2849,7 @@ ul#session-speaker-names li {
 	margin-top: 30px;
 }
 #subscribe-email input {
-    width: 93%;
+    width: 93% !important;
 }
 .page-template-default #content .entry-header h1.entry-title,
 .single #content .entry-header h1.entry-title,
