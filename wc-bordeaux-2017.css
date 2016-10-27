@@ -2839,15 +2839,6 @@ ul#session-speaker-names li {
 	margin-bottom: 0;
 }
 
-#subscribe-email {
-	width: 75%;
-}
-
-#subscribe-email input {
-	width: 90% !important;
-	height: 18px;
-}
-
 .page-template-default #content .entry-header h1.entry-title,
 .single #content .entry-header h1.entry-title,
 .error404 #content .entry-header h1.entry-title,
