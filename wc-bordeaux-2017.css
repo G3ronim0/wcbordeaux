@@ -1174,16 +1174,13 @@ body.home #secondary {
 	max-width: 60%;
 	background-color: rgba(0,0,0,.4);
 	position: absolute;
-	padding: 15px;
+	padding: 45px;
 	right: 0;
 	bottom: 0;
 }
 
 #infos-principais p {
 	color: #fff;
-	font-size: 1.1em !important;
-	line-height: 1.2em !important;
-	text-shadow: 0 0 5px #000;
 	padding-top: .5em;
 	margin-bottom: 0;
 }
@@ -1204,6 +1201,7 @@ body.home #secondary {
 .home #secondary .widget:first-child #chamada-principal .btn {
 	color: #fff;
 	display: block;
+	padding: 12px;
 	text-transform: uppercase;
 }
 
