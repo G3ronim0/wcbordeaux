@@ -943,7 +943,7 @@ body.template-front-page #page .site-content {
 	height: 26px;
 	background: rgba(100,0,52,.1);
 	border: 2px solid #640034;
-	color: #fff;
+	color: #640034;
 	font-weight: bold;
 }
 .home #subscribe-submit input {
