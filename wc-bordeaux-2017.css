@@ -616,9 +616,9 @@ h4.sponsor-level-title {
 	margin-right: 10px;
 }
 
-input#searchsubmit,
-input[type="submit"] {
+input#searchsubmit, input[type="submit"] {
 	background: #640034;
+	box-shadow: none !important;
 	color: #fff;
 	border: none;
 	border-radius: 2px;
