@@ -690,7 +690,7 @@ input[type="submit"]:hover {
 	transition: background-color .3s ease;
 }
 
-.main-navigation li:hover {
+.main-navigation li:hover, .main-navigation li:focus, li.current-menu-item {
 	background-color: #71650B;
 }
 
