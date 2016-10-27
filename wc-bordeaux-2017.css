@@ -637,7 +637,7 @@ input[type="submit"]:hover {
 	width: 214px;
 	height: 88px;
 	text-indent: -9999px;
-	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/wcbordeaux-2017-logo-h.png') no-repeat;
+	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/logo.png') no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	.site-title a {
