@@ -703,7 +703,7 @@ input[type="submit"]:hover {
 	transform: skewx(16deg);
 }
 
-.main-navigation li a::after {
+.main-navigation li a + .main-navigation li a:after {
 	color: rgba(255,255,255,0.3);
 	content: '/';
 	padding: 0 10px;
