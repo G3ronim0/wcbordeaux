@@ -1060,7 +1060,7 @@ body.home #secondary {
 	overflow: hidden;
 	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/burgundy-426424_1920.jpg') no-repeat center;
 	background-size: cover;
-	height: 640px;
+	height: 680px;
 	text-align: center;
 	width: 100%;
 	margin: 0;
@@ -1069,7 +1069,7 @@ body.home #secondary {
 
 .home #secondary .widget:first-child #chamada-principal {
 	max-width: 1200px;
-	margin: 160px auto 15px;
+	margin: 220px auto 15px;
 	align-items: center;
 	flex-direction: row;
 	display: flex;
