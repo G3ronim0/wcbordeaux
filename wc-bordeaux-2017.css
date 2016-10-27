@@ -503,7 +503,6 @@
 body {
 	background-color: #640034;
 	color: #1f3542;
-	font-family: 'Roboto', sans-serif;
 }
 
 a,
@@ -518,7 +517,6 @@ a:hover {
 }
 
 #page h1 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -527,7 +525,6 @@ a:hover {
 }
 
 h2 {
-	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 }
 
@@ -547,12 +544,10 @@ h2 {
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 }
 
 h4 {
-	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 }
 
@@ -702,7 +697,6 @@ input[type="submit"]:hover {
 .main-navigation li a {
 	color: #fff;
 	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
 	line-height: 89px;
 	padding: 0 10px;
@@ -886,7 +880,6 @@ body.home #primary::before {
 	color: #640034;
 	content: 'Actualités';
 	display: inline-block;
-	font-family: 'Roboto', sans-serif;
 	font-size: 34px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -1231,7 +1224,6 @@ body.home #secondary {
 	border-radius: 5px;
 	color: #fff;
 	display: inline-block;
-	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -1309,7 +1301,6 @@ body.home #secondary {
 }
 
 .home #secondary .widget:nth-child(2) .header-widget p {
-	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 }
@@ -1427,7 +1418,6 @@ body.full-width #primary {
 }
 
 .site-info {
-	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	margin: 0 auto;
 	max-width: 1200px;
@@ -1571,7 +1561,6 @@ body.archive .entry-content {
 	border-radius: 5px;
 	color: #fff;
 	display: inline-block;
-	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -1704,7 +1693,6 @@ body.blog .comments-link {
 	font-size: 14px;
 	line-height: 18px;
 	color: #640034;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 }
 
@@ -1781,7 +1769,6 @@ body.single .entry-content {
 	text-decoration: none;
 	font-size: 20px;
 	line-height: 22px;
-	font-family: 'Roboto', sans-serif;
 }
 
 .nav-previous a:hover,
