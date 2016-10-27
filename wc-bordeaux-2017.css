@@ -698,21 +698,16 @@ input[type="submit"]:hover {
 	color: #fff;
 	font-size: 16px;
 	letter-spacing: 1px;
-	line-height: 89px;
 	padding: 0 10px;
 	transform: skewx(16deg);
 }
-
-.main-navigation li a:after {
-	color: rgba(255,255,255,0.3);
-	content: '/';
-	padding: 0 10px;
-	position: absolute;
+.main-navigation li + li a::before {
+    color: rgba(255,255,255,0.3);
+    content: '/';
+    padding-right: 0px;
+    position: absolute;
+    left: -5px;
 }
-.main-navigation li a:last-of-type {
-	content: none;
-}
-
 .main-navigation li ul {
 	transform: skewx(16deg);
 	left: 22px;
