@@ -934,7 +934,9 @@ body.template-front-page #page .site-content {
 	color: #fff;
 	font-weight: bold;
 }
-
+.home #subscribe-email input::-webkit-input-placeholder, .home #subscribe-email input::-moz-placeholder, .home #subscribe-email input:-ms-input-placeholder, .home #subscribe-email input:-moz-placeholder {
+	color: #640034;
+}
 .home #subscribe-submit input {
 	font-size: 1.15rem;
 	text-transform: uppercase;
