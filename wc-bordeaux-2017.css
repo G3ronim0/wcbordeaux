@@ -701,7 +701,7 @@ input[type="submit"]:hover {
 	padding: 0 10px;
 	transform: skewx(16deg);
 }
-.main-navigation li + li a::before {
+.main-navigation li + li > a::before {
     color: rgba(255,255,255,0.3);
     content: '/';
     padding-right: 0px;
@@ -1382,12 +1382,12 @@ a.sponsor-logo:nth-child(2n+2) {
 	margin: 0;
 	padding: 0 4% 0 0;
 	position: relative;
-	max-width: 850px;
+	max-width: 770px;
 }
 
 .page #secondary,
 .single #secondary {
-	max-width: 250px;
+	max-width: 220px;
 }
 
 #secondary aside.widget {
