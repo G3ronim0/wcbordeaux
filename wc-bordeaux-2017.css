@@ -1,4 +1,4 @@
-@media (min-width:440px) {
+@media (min-width:500px) {
 	[class*=" grid"]>*,[class^=grid]>* {
 		box-sizing: border-box;
 		min-width: 0;
@@ -634,6 +634,13 @@ input[type="submit"]:hover {
 	transition: all .5s ease;
 }
 
+h1, h2, h3, h4,
+h1 *, h2 *, h3 *, h4 * {
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
+	hyphens: none;
+}
+
 .site-header {
 	display: flex;
 	justify-content: space-between;
@@ -981,11 +988,6 @@ body.template-front-page #page .site-content {
 		width: 40%;
 	}
 
-	#infos-principais {
-		margin: 0 auto;
-		width: 50% !important;
-	}
-
 	#infos-principais .btn {
 		font-size: 16px;
 		padding: 16px;
@@ -1056,7 +1058,8 @@ body.home #secondary {
 }
 
 .home #secondary .widget:first-child {
-	display: block;
+	display: flex;
+	justify-content: center;
 	overflow: hidden;
 	background: url('http://2017.bordeaux.wordcamp.org/files/2016/11/bordeaux-vue-aerienne.jpg') no-repeat center;
 	background-size: cover;
@@ -1067,9 +1070,14 @@ body.home #secondary {
 	z-index: 0;
 }
 
+.home #secondary .widget:first-child .textwidget {
+	width: 100%;
+	align-self: flex-end;
+}
+
 .home #secondary .widget:first-child #chamada-principal {
 	max-width: 990px;
-	margin: 350px auto 15px;
+	margin: auto;
 	align-items: center;
 	flex-direction: row;
 	display: flex;
@@ -1077,6 +1085,8 @@ body.home #secondary {
 	justify-content: space-between;
 	position: relative;
 }
+
+
 
 .home #secondary .widget:first-child #chamada-principal #home-logo {
 	vertical-align: center;
@@ -1089,29 +1099,10 @@ body.home #secondary {
 	width: 40%;
 }
 
-@media (min-width: 751px) {
-	#text-2 .textwidget,
-		#chamada-principal,
-		#home-logo {
-	/* permet de centrer verticalement .infos-principais quelque soit la hauteur du logo */
-		height: 100%;
-	}
-}
-
 @media (max-width: 750px) {
-	.home #secondary .widget:first-child #chamada-principal {
-		display: block;
-		overflow: visible;
-	}
-
 	#home-logo {
 		margin: 0 auto;
 		width: 220px;
-	}
-
-	#infos-principais {
-		width: 90% !important;
-		max-width: none !important;
 	}
 
 	#infos-principais > div:first-child {
@@ -1201,7 +1192,7 @@ body.home #secondary {
 	border-bottom: 1px solid rgba(255,255,255,.3);
 }
 #home-cta div + div {
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 }
 .home #secondary .widget:first-child #chamada-principal .btn {
 	color: #fff;
@@ -1804,10 +1795,6 @@ body.single .entry-content {
 	text-transform: uppercase;
 	padding: 20px;
 	border-bottom: solid 1px #c9cac5;
-}
-
-#page .widget .textwidget {
-	padding: 0 40px 10px;
 }
 
 .widget h5 {
@@ -2640,13 +2627,34 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 }
 
+@media screen and (max-width: 501px) {
+	#infos-principais {
+		min-width: 250px;
+		width: 100% !important;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#home-cta div + div {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	#infos-principais i {
+		padding-bottom: 5px;
+	}
+	#infos-principais i + p {
+		padding-top: 0;
+		padding-bottom: 5px;
+	}
+}
+
 @media screen and (max-width: 439px) {
 	#home-logo {
 		width: 150px;
 	}
 
 	#infos-principais {
-		min-width: 320px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
 
