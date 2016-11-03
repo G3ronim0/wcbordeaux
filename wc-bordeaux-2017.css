@@ -698,7 +698,7 @@ h1 *, h2 *, h3 *, h4 * {
 
 .main-navigation li {
 	margin: 0;
-	transform: skewx(-16deg);
+	transform: skewx(-20deg);
 	transition: background-color .3s ease;
 }
 
@@ -711,7 +711,7 @@ h1 *, h2 *, h3 *, h4 * {
 	font-size: 16px;
 	letter-spacing: 1px;
 	padding: 0 10px;
-	transform: skewx(16deg);
+	transform: skewx(20deg);
 }
 @media (min-width: 768px) {
 	.main-navigation li + li > a::before {
@@ -723,7 +723,7 @@ h1 *, h2 *, h3 *, h4 * {
 	}
 }
 .main-navigation li ul {
-	transform: skewx(16deg);
+	transform: skewx(20deg);
 	left: 21px;
 }
 
@@ -1140,6 +1140,7 @@ body.home #secondary {
 
 	#infos-principais p {
 		font-size: 14px !important;
+		line-height: 18px !important;
 		text-shadow: 0 1px 2px #000 !important;
 	}
 }
@@ -2395,6 +2396,8 @@ table.tix_tickets_table td.tix-column-remaining {
 }
 
 @media screen and (max-width: 600px) {
+
+
 	.menu-principal-container::before {
 		background: none;
 		width: 0;
@@ -2433,6 +2436,13 @@ table.tix_tickets_table td.tix-column-remaining {
 		width: 100%;
 	}
 
+	.main-navigation li,
+	.main-navigation li a,
+	.main-navigation li ul,
+	.main-navigation li ul * {
+		transform: none;
+	}
+
 	.main-navigation li a {
 		display: block;
 		line-height: 38px;
@@ -2447,7 +2457,6 @@ table.tix_tickets_table td.tix-column-remaining {
 		margin: 0 5px;
 		display: inline-block;
 	}
-
 	.main-navigation li ul li a {
 		background: #640034 !important;
 	}
