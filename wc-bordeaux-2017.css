@@ -628,7 +628,7 @@ input#searchsubmit, input[type="submit"] {
 
 input#searchsubmit:hover,
 input[type="submit"]:hover {
-	background: #71650B;
+	background: #606C38;
 	color: #fff;
 	text-decoration: none;
 	transition: all .5s ease;
@@ -703,7 +703,7 @@ h1 *, h2 *, h3 *, h4 * {
 }
 
 .main-navigation li:hover, .main-navigation li:focus, li.current-menu-item {
-	background-color: #71650B;
+	background-color: #606C38;
 }
 
 .main-navigation li a {
@@ -973,19 +973,9 @@ body.template-front-page #page .site-content {
 		margin-top: 0 !important;
 	}
 
-	#text-4 #home-logo {
-		margin: 30px;
-		margin-top: 20% !important;
-		max-width: 180px !important;
-	}
-
 	#text-6 {
 		top: 490px !important;
 		height: auto !important;
-	}
-
-	#home-logo {
-		width: 40%;
 	}
 
 	#infos-principais .btn {
@@ -1023,7 +1013,7 @@ body.template-front-page #page .site-content {
 }
 
 .home .entry-header .entry-title a:hover {
-	background: #71650B;
+	background: #606C38;
 	color: #fff;
 }
 
@@ -1094,15 +1084,24 @@ body.home #secondary {
 	margin: 0 auto;
 }
 
+#home-logo {
+	height: 350px !important;
+}
 #home-logo img {
-	max-width: 300px;
-	width: 40%;
+	display: block;
+	height: 100%;
 }
 
+
 @media (max-width: 750px) {
+
 	#home-logo {
-		margin: 0 auto;
-		width: 220px;
+	height: 320px !important;
+	}
+
+	#infos-principais p {
+		line-height: 18px !important;
+		padding-bottom: 10px;
 	}
 
 	#infos-principais > div:first-child {
@@ -1145,30 +1144,13 @@ body.home #secondary {
 	}
 }
 
-@media (max-width: 510px) {
-	/*	#home-logo {
-				max-width: 150px !important;
-				width: 100% !important;
-				margin: 0 auto!important;
-				float: none !important;
-		}
-		#infos-principais {
-				width: 80% !important;
-				margin: 0 auto!important;
-				float: none !important;
-		}
-		#infos-principais .btn {
-				display: none;
-		}*/
-}
-
 #infos-principais {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
-	padding: 25px;
+	padding: 10px 25px 25px;
 	right: 0;
 	bottom: 0;
 	width: 100%;
@@ -2264,10 +2246,6 @@ table.tix_tickets_table td.tix-column-remaining {
 		height: 527px;
 	}
 
-	#page #text-4 #home-logo {
-		max-width: 300px;
-	}
-
 	body.home #primary::before {
 		padding-left: 35px;
 	}
@@ -2275,14 +2253,7 @@ table.tix_tickets_table td.tix-column-remaining {
 	body.home #primary::after {
 		width: 94%;
 	}
-}
 
-/*@media screen and (max-width: 900px) and (min-width: 850px) {
-	#page #text-4 #home-logo {
-			margin: 60px 0;
-	}
-}*/
-@media screen and (max-width: 900px) {
 	#page #text-4 #register-widget {
 		height: 159px;
 		padding: 30px 0 0;
@@ -2408,11 +2379,6 @@ table.tix_tickets_table td.tix-column-remaining {
 		top: 48px;
 	}
 
-	#page #text-4 #home-logo {
-		margin: 74px 0;
-		max-width: 260px;
-	}
-
 	#page #text-4 #register-widget h2 {
 		font-size: 16px;
 		line-height: 26px;
@@ -2426,7 +2392,7 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 
 	#page .entry-header h1,
-		#page .archive-header h1 {
+	#page .archive-header h1 {
 		font-size: 18px;
 		line-height: 20px;
 	}
@@ -2637,6 +2603,9 @@ table.tix_tickets_table td.tix-column-remaining {
 }
 
 @media screen and (max-width: 501px) {
+	#home-logo {
+		display: none;
+	}
 	#infos-principais {
 		min-width: 250px;
 		width: 100% !important;
@@ -2657,10 +2626,6 @@ table.tix_tickets_table td.tix-column-remaining {
 }
 
 @media screen and (max-width: 439px) {
-	#home-logo {
-		width: 150px;
-	}
-
 	#infos-principais {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -2680,7 +2645,6 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 
 	.menu-primary-menu-container {
-	/*background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/wcba-logo-web2.png') no-repeat top left;*/
 		padding: 0;
 	}
 }
@@ -2808,6 +2772,7 @@ span.wcpt-session-speakers {
 }
 
 @media (max-width: 700px) {
+
 	span.wcpt-session-speakers {
 		padding-left: 0;
 	}
