@@ -592,7 +592,7 @@ h4.sponsor-level-title {
 }
 
 .btn-primary:hover {
-	background-color: #606C38;
+	background-color: #198F90;
 	text-decoration: none;
 	transition: all .5s ease;
 }
@@ -628,7 +628,7 @@ input#searchsubmit, input[type="submit"] {
 
 input#searchsubmit:hover,
 input[type="submit"]:hover {
-	background: #606C38;
+	background: #198F90;
 	color: #fff;
 	text-decoration: none;
 	transition: all .5s ease;
@@ -708,7 +708,7 @@ h1 *, h2 *, h3 *, h4 * {
 }
 
 .main-navigation li:hover, .main-navigation li:focus, li.current-menu-item {
-	background-color: #606C38;
+	background-color: #198F90;
 }
 
 li.current-menu-item {
@@ -725,11 +725,11 @@ li.current-menu-item {
 }
 @media (min-width: 670px) {
 	.main-navigation li + li > a::before {
-		color: rgba(255,255,255,0.3);
+		/*color: rgba(255,255,255,0.3);
 		content: '/';
 		padding-right: 0px;
 		position: absolute;
-		left: -5px;
+		left: -5px;*/
 	}
 }
 .main-navigation li ul {
@@ -1023,7 +1023,7 @@ body.template-front-page #page .site-content {
 }
 
 .home .entry-header .entry-title a:hover {
-	background: #606C38;
+	background: #198F90;
 	color: #fff;
 }
 
