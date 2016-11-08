@@ -1177,10 +1177,12 @@ body.home #secondary {
 #home-cta div + div {
 	/*margin-left: 30px;*/
 }
-#secondary .widget:first-child #chamada-principal .btn, .btn-primary {
-	color: #fff;
+#secondary .widget:first-child #chamada-principal .btn, a.btn-primary {
+	color: #fff !important;
 	display: block;
 	padding: 12px;
+	text-align: center;
+	text-decoration: none;
 	text-transform: uppercase;
 }
 
