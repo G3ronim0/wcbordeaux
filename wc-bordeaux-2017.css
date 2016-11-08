@@ -686,6 +686,11 @@ h1 *, h2 *, h3 *, h4 * {
 	text-align: center;
 }
 
+.main-navigation a[href="#"] {
+	pointer-events: none;
+	cursor: default;
+}
+
 .main-navigation ul.nav-menu {
 	float: right;
 	width: auto;
@@ -706,6 +711,11 @@ h1 *, h2 *, h3 *, h4 * {
 	background-color: #606C38;
 }
 
+li.current-menu-item {
+	border: 2px solid white;
+	border-width: 2px 0;
+}
+
 .main-navigation li a {
 	color: #fff;
 	font-size: 16px;
@@ -713,7 +723,7 @@ h1 *, h2 *, h3 *, h4 * {
 	padding: 0 10px;
 	transform: skewx(20deg);
 }
-@media (min-width: 768px) {
+@media (min-width: 670px) {
 	.main-navigation li + li > a::before {
 		color: rgba(255,255,255,0.3);
 		content: '/';
@@ -1051,7 +1061,7 @@ body.home #secondary {
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	background: url('http://2017.bordeaux.wordcamp.org/files/2016/11/bordeaux-vue-aerienne.jpg') no-repeat center;
+	background: url('http://2017.bordeaux.wordcamp.org/files/2016/11/bordeaux_vue_aerienne-credit_Thomas_Sanson.jpg') no-repeat center;
 	background-size: cover;
 	height: 680px;
 	text-align: center;
@@ -1092,6 +1102,15 @@ body.home #secondary {
 	height: 100%;
 }
 
+@media (max-width: 900px) {
+	.site-header {
+		flex-direction: column;
+		height: auto;
+	}
+	.main-navigation {
+		padding-right: 0 !important;
+	}
+}
 
 @media (max-width: 750px) {
 
@@ -1116,11 +1135,6 @@ body.home #secondary {
 		flex-wrap: nowrap !important;
 	}
 
-	.site-header {
-		flex-direction: column;
-		height: auto;
-	}
-
 	.home .hentry {
 		width: 100%;
 	}
@@ -1129,6 +1143,9 @@ body.home #secondary {
 		.home .entry-header img.wp-post-image {
 		max-height: auto;
 	}
+
+	.jetpack_subscription_widget #subscribe-email { margin-left: 2em; }
+	.jetpack_subscription_widget #subscribe-submit { margin-left: 2em; }
 
 }
 
@@ -2192,19 +2209,11 @@ table.tix_tickets_table td.tix-column-remaining {
 	.site-info {
 		padding: 0 40px;
 	}
-
 	.main-navigation li a {
-		font-size: 14px;
-		padding: 0 4px;
+		letter-spacing: 0
 	}
-
-	.main-navigation li li a {
-		font-size: 14px;
-		padding: 0 4px;
-	}
-
 	.main-navigation li a::after {
-		padding: 0 4px;
+		padding: 0 5px;
 	}
 
 	.main-navigation li.twitter a {
@@ -2213,6 +2222,15 @@ table.tix_tickets_table td.tix-column-remaining {
 }
 
 @media screen and (max-width: 1000px) {
+	.main-navigation li a {
+		font-size: 14px;
+		padding: 0 4px;
+	}
+
+	.main-navigation li li a {
+		font-size: 14px;
+		padding: 0 6px;
+	}
 	.menu-primary-menu-container::before {
 		display: none;
 	}
@@ -2231,6 +2249,10 @@ table.tix_tickets_table td.tix-column-remaining {
 	.single #secondary {
 		max-width: 100%;
 		margin-left: 0;
+	}
+
+	.entry-content {
+		padding: 0 0 25px 0;
 	}
 
 }
@@ -2287,17 +2309,13 @@ table.tix_tickets_table td.tix-column-remaining {
 		line-height: 26px;
 	}
 
-	.entry-content {
-		padding: 50px 0;
-	}
-
 	#secondary {
 		margin: 103px 0 0;
 		padding: 50px 0 0;
 	}
 
 	body.single .entry-content {
-		padding: 50px 0 0;
+		padding: 25px 0 0;
 	}
 
 	.menu-primary-menu-container {
@@ -2360,6 +2378,21 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 }
 
+@media screen and (max-width: 750px) {
+	.main-navigation li a {
+		letter-spacing: 0
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.main-navigation li,
+	.main-navigation li a,
+	.main-navigation li ul,
+	.main-navigation li ul * {
+		transform: none;
+	}
+}
+
 @media screen and (min-width: 600px) {
 	.widget-area .widget {
 		-moz-hyphens: none;
@@ -2402,13 +2435,6 @@ table.tix_tickets_table td.tix-column-remaining {
 	.main-navigation {
 		padding: 0;
 		width: 100%;
-	}
-
-	.main-navigation li,
-	.main-navigation li a,
-	.main-navigation li ul,
-	.main-navigation li ul * {
-		transform: none;
 	}
 
 	.main-navigation li a {
@@ -2632,6 +2658,9 @@ table.tix_tickets_table td.tix-column-remaining {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	.jetpack_subscription_widget #subscribe-email { margin-left: 5px; }
+	.jetpack_subscription_widget #subscribe-submit { margin-left: 5px; }
 }
 
 @media screen and (min-width: 900px) {
