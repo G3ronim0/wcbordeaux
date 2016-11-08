@@ -1182,7 +1182,7 @@ body.home #secondary {
 	display: block;
 	padding: 12px;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-transform: uppercase;
 }
 
