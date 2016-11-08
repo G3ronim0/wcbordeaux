@@ -1177,7 +1177,7 @@ body.home #secondary {
 #home-cta div + div {
 	/*margin-left: 30px;*/
 }
-.home #secondary .widget:first-child #chamada-principal .btn {
+#secondary .widget:first-child #chamada-principal .btn {
 	color: #fff;
 	display: block;
 	padding: 12px;
