@@ -592,7 +592,7 @@ h4.sponsor-level-title {
 }
 
 .btn-primary:hover {
-	background-color: #198F90;
+	background-color: #a12c6c;
 	text-decoration: none;
 	transition: all .5s ease;
 }
@@ -628,7 +628,7 @@ input#searchsubmit, input[type="submit"] {
 
 input#searchsubmit:hover,
 input[type="submit"]:hover {
-	background: #198F90;
+	background: #a12c6c;
 	color: #fff;
 	text-decoration: none;
 	transition: all .5s ease;
@@ -708,7 +708,7 @@ h1 *, h2 *, h3 *, h4 * {
 }
 
 .main-navigation li:hover, .main-navigation li:focus, li.current-menu-item {
-	background-color: #198F90;
+	background-color: #a12c6c;
 }
 
 li.current-menu-item {
@@ -752,12 +752,12 @@ li.current-menu-item {
 	border-bottom: solid 1px #e8e8e8;
 	font-size: 14px;
 	padding: 10px;
-	background-color: #f4f0d0 !important;
-	color: #640034 !important;
+	background-color: #40162d !important;
+	color: white !important;
 }
 
 .main-navigation li ul li a:hover {
-	background-color: #9c9990 !important;
+	background-color: #a12c6c !important;
 	color: white !important;
 }
 
@@ -1023,7 +1023,7 @@ body.template-front-page #page .site-content {
 }
 
 .home .entry-header .entry-title a:hover {
-	background: #198F90;
+	background: #a12c6c;
 	color: #fff;
 }
 
