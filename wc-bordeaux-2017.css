@@ -993,6 +993,14 @@ body.template-front-page #page .site-content {
 		padding: 16px;
 		font-weight: normal;
 	}
+
+	#table_sponsors td {
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+
+
 }
 
 .home #content {
@@ -1899,6 +1907,8 @@ body.single .entry-content {
 	border-bottom: none;
 }
 
+.entry-content #table_sponsors th small { display: block; }
+
 #page .nav-single + .comments-area,
 #page #comment-nav-above {
 	margin: 30px 0;
@@ -2524,7 +2534,31 @@ table.tix_tickets_table td.tix-column-remaining {
 		padding: 10px 5px;
 	}
 
+	#table_sponsors thead th:first-child { display: none; }
+
+	#table_sponsors thead th {
+		padding: 5px;
+		font-size: 15px;
+	}
+	#table_sponsors th small {
+		display: inline !important;
+		font-size: 15px;
+    }
+    #table_sponsors th small:before {
+		content: ': ';
+    }
+
 	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#table_sponsors thead tr {
+		position: static;
+	}
+
+	#table_sponsors tbody {
 		position: absolute;
 		top: -9999px;
 		left: -9999px;
