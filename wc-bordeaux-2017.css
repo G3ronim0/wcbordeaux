@@ -1096,6 +1096,8 @@ body.home #secondary {
 
 #home-logo {
 	height: 350px !important;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.2) 50%,rgba(255,255,255,1) 100%);
+	box-shadow: 0 0 6px 2px rgba(255,255,255,0.4);
 }
 #home-logo img {
 	display: block;
@@ -1142,6 +1144,11 @@ body.home #secondary {
 	.home .entry-header,
 		.home .entry-header img.wp-post-image {
 		max-height: auto;
+	}
+
+	.entry-content table,
+	.comment-content table {
+		line-height: 1.5;
 	}
 
 	.jetpack_subscription_widget #subscribe-email { margin-left: 2em; }
