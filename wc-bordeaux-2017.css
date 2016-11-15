@@ -1069,7 +1069,7 @@ body.home #secondary {
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	background: url('http://2017.bordeaux.wordcamp.org/files/2016/11/bordeaux_vue_aerienne-credit_Thomas_Sanson.jpg') no-repeat center;
+	background: url('http://2017.bordeaux.wordcamp.org/files/2016/11/Bordeaux_nuit-Credit_Thomas_Sanson.jpg') no-repeat center;
 	background-size: cover;
 	height: 680px;
 	text-align: center;
@@ -1104,8 +1104,9 @@ body.home #secondary {
 
 #home-logo {
 	height: 350px !important;
-	background: linear-gradient(to bottom, rgba(255,255,255,0.2) 50%,rgba(255,255,255,1) 100%);
-	box-shadow: 0 0 6px 2px rgba(255,255,255,0.4);
+	linear-gradient(to bottom, rgba(254,238,192,0) 50%, rgba(254,238,192,0.6) 75%,rgba(254,238,192,1) 100%);
+	/*background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 25%,rgba(255,255,255,1) 100%);*/
+	/*box-shadow: 0 0 6px 2px rgba(255,255,255,0.4);*/
 }
 #home-logo img {
 	display: block;
@@ -1160,7 +1161,7 @@ body.home #secondary {
 	}
 
 	.jetpack_subscription_widget #subscribe-email { margin-left: 2em; }
-	.jetpack_subscription_widget #subscribe-submit { margin-left: 2em; }
+	.jetpack_subscription_widget #subscribe-submit { margin-right: 2em; }
 
 }
 
@@ -2420,6 +2421,16 @@ table.tix_tickets_table td.tix-column-remaining {
 
 @media screen and (max-width: 600px) {
 
+	.page-template-default #content .entry-header h1.entry-title,
+.single #content .entry-header h1.entry-title,
+.error404 #content .entry-header h1.entry-title,
+.page-template-full-width #page .entry-title {
+		margin-top: 25px !important;
+	}
+
+	.entry-header, #page .archive-header {
+		height: auto !important;
+	}
 
 	.menu-principal-container::before {
 		background: none;
