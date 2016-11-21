@@ -1045,6 +1045,7 @@ body.template-front-page #page .site-content {
     margin-top: calc(-100% + 40px);
     z-index: 2;
     line-height: 0;
+    height: auto;
 }
 
 .home .entry-content {
