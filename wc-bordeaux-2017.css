@@ -1035,6 +1035,19 @@ body.template-front-page #page .site-content {
 	color: #fff;
 }
 
+.home .entry-title a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: calc(-100% + 40px);
+    z-index: 2;
+    line-height: 0;
+    height: 100%;
+}
+
 .home .entry-content {
 	display: none;
 }
