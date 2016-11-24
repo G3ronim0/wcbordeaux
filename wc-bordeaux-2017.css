@@ -1427,8 +1427,10 @@ a.sponsor-logo:nth-child(2n+2) {
 	overflow: hidden;
 }
 
-.single .entry-header img.wp-post-image {
-	display: none;
+.single .wcb_sponsor .entry-header img.wp-post-image {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: -40px;
 }
 
 body.single-attachment #primary,
@@ -1489,6 +1491,8 @@ body.full-width #primary {
 	text-align: left;
 	margin: 0;
 }
+
+#page .wcb_sponsor
 
 .search #page .entry-header,
 #page .archive-header {
@@ -1950,7 +1954,7 @@ table a:hover {
 }
 
 article.type-wcb_sponsor header.entry-header img {
-	display: none;
+	display: block;
 }
 
 .wcorg-sponsor-description img {
@@ -2329,13 +2333,18 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 
 	#page .entry-header,
-		#page .archive-header {
+	#page .archive-header {
 		padding: 14px 0 0;
 		height: 90px;
 	}
 
+	#page .wcb_sponsor .entry-header,
+	#page .wcb_sponsor .archive-header {
+		height: auto;
+	}
+
 	#page .entry-header h1,
-		#page .archive-header h1 {
+	#page .archive-header h1 {
 		font-size: 22px;
 		line-height: 26px;
 	}
@@ -2776,7 +2785,7 @@ body.single-wcb_speaker h2.speaker-sessions {
 	line-height: 18px;
 }
 
-.wcorg-speakers .wcorg-speaker a.social.website,
+/*.wcorg-speakers .wcorg-speaker a.social.website,
 .single-wcb_speaker a.website {
 	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/www-icon.png');
 }
@@ -2824,7 +2833,7 @@ body.single-wcb_speaker h2.speaker-sessions {
 .wcorg-speakers .wcorg-speaker a.social.email,
 .single-wcb_speaker a.social.email {
 	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/mail-icon.png');
-}
+}*/
 
 .wcorg-speakers .wcorg-speaker .wcorg-speaker-description {
 	margin-bottom: 30px;
