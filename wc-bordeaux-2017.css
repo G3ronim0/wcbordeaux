@@ -890,8 +890,8 @@ body.home .site {
 }
 
 body.home #primary {
-	max-width: 990px;
-	width: 100%;
+	max-width: 1300px;
+	width: 95%;
 	margin: 0 auto;
 	margin-top: 3em;
 	padding: 80px 0;
@@ -1754,7 +1754,7 @@ body.page-template-page-templatesfull-width-php #page footer.entry-meta {
 
 .entry-content {
 	font-size: 14px;
-	padding: 50px 0;
+	padding: 25px 0;
 }
 
 body.single .entry-content {
@@ -3071,4 +3071,68 @@ ul#session-speaker-names li {
 
 div.author-info {
     display: none;
+}
+
+/* ------------ */
+
+footer.entry-meta {
+    text-indent: -9999px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px !important;
+}
+footer.entry-meta a,
+footer.entry-meta span {
+    text-indent: 0;
+    text-decoration: none !important;
+}
+footer.entry-meta a:hover { text-decoration: underline !important; }
+footer.entry-meta a[rel~=category] {
+    font-weight: bold;
+}
+footer.entry-meta a[rel~=category]:before {
+    content: 'Publié dans ';
+    font-weight: normal;
+}
+footer.entry-meta a[rel~=category] { margin-right: 5px; }
+footer.entry-meta a[rel~=bookmark] {
+    font-weight: bold;
+}
+footer.entry-meta a[rel~=bookmark]:before {
+    content: 'le ';
+    font-weight: normal;
+}
+footer.entry-meta a[rel~=bookmark] { margin-right: 5px; }
+footer.entry-meta span.by-author a { font-weight: bold }
+
+/* ------------ */
+
+.home #content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+body.blog .site-content article,
+body.error404 .site-content article,
+body.archive .site-content article {
+    /* flex-grow: 0; */
+}
+
+.home .hentry {
+    width: 400px;
+    margin: 0 10px !important;
+    flex-grow: 0;
+}
+
+body.blog #page .entry-header,
+body.archive #page .entry-header {
+    margin: 0 0 5px 0;
+}
+
+.entry-header img.wp-post-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
