@@ -1430,7 +1430,6 @@ a.sponsor-logo:nth-child(2n+2) {
 .single .wcb_sponsor .entry-header img.wp-post-image {
 	display: block;
 	margin: 0 auto;
-	margin-bottom: -40px;
 }
 
 body.single-attachment #primary,
@@ -1489,7 +1488,7 @@ body.full-width #primary {
 #page .archive-header {
 	border: none;
 	text-align: left;
-	margin: 0;
+	margin: 20px 0 0 0;
 }
 
 #page .wcb_sponsor
@@ -2280,11 +2279,45 @@ table.tix_tickets_table td.tix-column-remaining {
 		padding:	0 2em;
 	}
 
+    .page #primary,
+    .single #primary {
+        padding: 0;
+        margin: 0 auto;
+        width: 95%;
+        min-width: 350px;
+    }
+
 	.page #secondary,
 	.single #secondary {
+        width: 50%;
+        min-width: 350px;
 		max-width: 100%;
-		margin-left: 0;
+		margin: 0 auto;
 	}
+
+    .widget .sponsor-level.imperiale a.sponsor-logo {
+        width: 45%;
+        min-width: 350px;
+        margin: 0 15px 20px;
+    }
+
+    .widget .sponsor-level.jeroboam a.sponsor-logo {
+        width: 30%;
+        min-width: 270px;
+        margin: 0 15px 20px;
+    }
+
+    .widget .sponsor-level.magnum a.sponsor-logo {
+        width: 23%;
+        min-width: 200px;
+        margin: 0 10px 20px;
+    }
+
+    .widget .sponsor-level.bordelaise a.sponsor-logo {
+        width: 19%;
+        min-width: 180px;
+        margin: 0 10px 20px;
+    }
 
 	.entry-content {
 		padding: 0 0 25px 0;
@@ -2940,7 +2973,7 @@ ul#session-speaker-names li {
 .error404 #content .entry-header h1.entry-title,
 .page-template-full-width #page .entry-title {
 	display: flex;
-	margin-top: 50px;
+	margin-top: 25px;
 	color: #640034;
 }
 
@@ -2980,4 +3013,62 @@ ul#session-speaker-names li {
 /* IE fix */
 	content: "\f313";
 	font-family: dashicons;
+}
+
+.sponsor-level h4 {
+    display: block;
+    width: 100%;
+    font-size: 120% !important;
+    padding-bottom: 5px;
+    border: 1px dashed gray;
+    border-width: 0 0 1px 0;
+}
+
+.sponsor-level.imperiale h4 {
+    margin-top: 40px;
+    text-shadow: 0 0 4px rgba(254,238,192,0.5);
+}
+
+.sponsor-level {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.widget a.sponsor-logo {
+    margin-bottom: 10px;
+}
+
+.home .widget a.sponsor-logo {
+    margin-bottom: 20px;
+}
+
+.home .widget .sponsor-level.imperiale a.sponsor-logo {
+    width: 45%;
+    min-width: 350px;
+    margin: 0 15px 20px;
+}
+
+.home .widget .sponsor-level.jeroboam a.sponsor-logo {
+    width: 30%;
+    min-width: 270px;
+    margin: 0 15px 20px;
+}
+
+.home .widget .sponsor-level.magnum a.sponsor-logo {
+    width: 23%;
+    min-width: 200px;
+    margin: 0 10px 20px;
+}
+
+.home .widget .sponsor-level.bordelaise a.sponsor-logo {
+    width: 19%;
+    min-width: 180px;
+    margin: 0 10px 20px;
+}
+
+div.author-info {
+    display: none;
 }
