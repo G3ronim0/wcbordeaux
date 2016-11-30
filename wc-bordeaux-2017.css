@@ -3075,12 +3075,7 @@ div.author-info {
 
 /* ------------ */
 
-footer.entry-meta {
-    text-indent: -9999px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5px !important;
-}
+footer.entry-meta { margin-top: 5px !important; }
 footer.entry-meta a,
 footer.entry-meta span {
     text-indent: 0;
@@ -3090,20 +3085,11 @@ footer.entry-meta a:hover { text-decoration: underline !important; }
 footer.entry-meta a[rel~=category] {
     font-weight: bold;
 }
-footer.entry-meta a[rel~=category]:before {
-    content: 'Publié dans ';
-    font-weight: normal;
-}
-footer.entry-meta a[rel~=category] { margin-right: 5px; }
 footer.entry-meta a[rel~=bookmark] {
     font-weight: bold;
 }
-footer.entry-meta a[rel~=bookmark]:before {
-    content: 'le ';
-    font-weight: normal;
-}
-footer.entry-meta a[rel~=bookmark] { margin-right: 5px; }
-footer.entry-meta span.by-author a { font-weight: bold }
+footer.entry-meta span.by-author a { font-weight: bold }*/
+
 
 /* ------------ */
 
