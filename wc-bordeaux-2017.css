@@ -3130,8 +3130,11 @@ body.archive #page .entry-header {
 }
 
 .home .wcb_widget_sponsors .widget-title {
+	font-size: 24px;
+}
+
+.wcb_widget_sponsors .widget-title {
 	padding-bottom: 5px !important;
 	margin-bottom: 0 !important;
-	font-size: 24px;
 	border: none;
 }
