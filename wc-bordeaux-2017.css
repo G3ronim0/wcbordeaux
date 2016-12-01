@@ -3121,7 +3121,7 @@ body.archive #page .entry-header {
     margin: 0 0 5px 0;
 }
 
-.entry-header img.wp-post-image {
+.home .entry-header img.wp-post-image {
     margin-left: auto;
     margin-right: auto;
     display: block;
