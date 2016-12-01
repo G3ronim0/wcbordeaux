@@ -1164,8 +1164,12 @@ body.home #secondary {
 	}
 
 	.home .entry-header,
-		.home .entry-header img.wp-post-image {
+	.home .entry-header img.wp-post-image {
 		max-height: auto;
+	}
+
+	.home .entry-header img.wp-post-image {
+		height: auto !important;
 	}
 
 	.entry-content table,
@@ -1670,7 +1674,7 @@ body.single-wcb_session .site-content article {
 body.blog .site-content article,
 body.error404 .site-content article,
 body.archive .site-content article {
-	border-bottom: solid 1px #e8e8e8;
+	border-bottom: none;
 	margin: 0 0 40px;
 	padding: 0 0 40px;
 }
@@ -3121,4 +3125,6 @@ body.archive #page .entry-header {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    height: 400px;
+    object-fit: cover;
 }
