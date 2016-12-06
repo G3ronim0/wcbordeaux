@@ -3121,10 +3121,13 @@ body.archive #page .entry-header {
     margin: 0 0 5px 0;
 }
 
-.home .entry-header img.wp-post-image {
+.entry-header img.wp-post-image {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.home .entry-header img.wp-post-image {
     height: 400px;
     object-fit: cover;
 }
