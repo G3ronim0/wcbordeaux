@@ -3141,3 +3141,13 @@ body.archive #page .entry-header {
 	margin-bottom: 0 !important;
 	border: none;
 }
+
+.exergue {
+	font-size: 1.25em;
+	padding: 0 4%;
+	box-sizing: border-box;
+	border-left: 5px solid rgba(100,0,52, 0.9);
+	margin: 0 auto 2% auto;
+	width: 80%;
+	line-height: 1.5;
+}
