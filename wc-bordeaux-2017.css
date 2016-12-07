@@ -3143,6 +3143,7 @@ body.archive #page .entry-header {
 }
 
 .exergue {
+	display: block;
 	font-size: 1.25em;
 	padding: 0 4%;
 	box-sizing: border-box;
