@@ -1134,6 +1134,16 @@ body.home #secondary {
 	.main-navigation {
 		padding-right: 0 !important;
 	}
+
+    .home-logo {
+        height: 320px !important;
+    }
+
+    .grid .fa-calendar + p,
+    .grid .fa-clock + p,
+    .grid .fa-map-marker + p {
+        font-size: 18px !important;
+    }
 }
 
 @media (max-width: 750px) {
@@ -1192,6 +1202,16 @@ body.home #secondary {
 		line-height: 18px !important;
 		text-shadow: 0 1px 2px #000 !important;
 	}
+
+    .home-logo {
+        height: 300px !important;
+    }
+
+    .grid .fa-calendar + p,
+    .grid .fa-clock + p,
+    .grid .fa-map-marker + p {
+        font-size: 18px !important;
+    }
 }
 
 #infos-principais {
@@ -2760,8 +2780,17 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 	#infos-principais i + p {
 		padding-top: 0;
-		padding-bottom: 5px;
+		padding-bottom: 15px;
 	}
+    .grid .fa-calendar + p,
+    .grid .fa-clock + p,
+    .grid .fa-map-marker + p {
+        font-size: 16px !important;
+    }
+
+    #infos-principais > div:first-child {
+        border-bottom: none;
+    }
 }
 
 @media screen and (max-width: 439px) {
@@ -3151,4 +3180,10 @@ body.archive #page .entry-header {
 	margin: 0 auto 2% auto;
 	width: 80%;
 	line-height: 1.5;
+}
+
+.grid .fa-calendar + p,
+.grid .fa-clock + p,
+.grid .fa-map-marker + p {
+    font-size: 20px !important;
 }
