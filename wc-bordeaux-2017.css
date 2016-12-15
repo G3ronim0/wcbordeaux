@@ -1139,10 +1139,10 @@ body.home #secondary {
         height: 320px !important;
     }
 
-    .grid .fa-calendar + p,
-    .grid .fa-clock-o + p,
-    .grid .fa-map-marker + p {
-        font-size: 18px;
+    .home .grid .fa-calendar + p,
+    .home .grid .fa-clock-o + p,
+    .home .grid .fa-map-marker + p {
+        font-size: 18px !important;
     }
 }
 
@@ -3185,5 +3185,5 @@ body.archive #page .entry-header {
 .grid .fa-calendar + p,
 .grid .fa-clock-o + p,
 .grid .fa-map-marker + p {
-    font-size: 20px;
+    font-size: 20px !important;
 }
