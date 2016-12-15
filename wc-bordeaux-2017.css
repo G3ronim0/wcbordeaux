@@ -1140,7 +1140,7 @@ body.home #secondary {
     }
 
     .grid .fa-calendar + p,
-    .grid .fa-clock + p,
+    .grid .fa-clock-o + p,
     .grid .fa-map-marker + p {
         font-size: 18px !important;
     }
@@ -1208,7 +1208,7 @@ body.home #secondary {
     }
 
     .grid .fa-calendar + p,
-    .grid .fa-clock + p,
+    .grid .fa-clock-o + p,
     .grid .fa-map-marker + p {
         font-size: 18px !important;
     }
@@ -2783,7 +2783,7 @@ table.tix_tickets_table td.tix-column-remaining {
 		padding-bottom: 15px;
 	}
     .grid .fa-calendar + p,
-    .grid .fa-clock + p,
+    .grid .fa-clock-o + p,
     .grid .fa-map-marker + p {
         font-size: 16px !important;
     }
@@ -3183,7 +3183,7 @@ body.archive #page .entry-header {
 }
 
 .grid .fa-calendar + p,
-.grid .fa-clock + p,
+.grid .fa-clock-o + p,
 .grid .fa-map-marker + p {
     font-size: 20px !important;
 }
