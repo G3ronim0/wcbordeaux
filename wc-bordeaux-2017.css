@@ -1127,6 +1127,9 @@ body.home #secondary {
 }
 
 @media (max-width: 900px) {
+    #home-logo {
+    height: 320px !important;
+    }
 	.site-header {
 		flex-direction: column;
 		height: auto;
@@ -1147,10 +1150,6 @@ body.home #secondary {
 }
 
 @media (max-width: 750px) {
-
-	#home-logo {
-	height: 320px !important;
-	}
 
 	#infos-principais p {
 		line-height: 18px !important;
@@ -1203,13 +1202,13 @@ body.home #secondary {
 		text-shadow: 0 1px 2px #000 !important;
 	}
 
-    .home-logo {
+    .home .home-logo {
         height: 300px !important;
     }
 
-    .grid .fa-calendar + p,
-    .grid .fa-clock-o + p,
-    .grid .fa-map-marker + p {
+    .home .main .grid .fa-calendar + p,
+    .home .main .grid .fa-clock-o + p,
+    .home .main .grid .fa-map-marker + p {
         font-size: 17px !important;
     }
 }
