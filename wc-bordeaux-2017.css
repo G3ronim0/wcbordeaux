@@ -656,7 +656,7 @@ h1 *, h2 *, h3 *, h4 * {
 	width: 214px;
 	height: 88px;
 	text-indent: -9999px;
-	background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/logo.png') no-repeat;
+	background: url('https://2017.bordeaux.wordcamp.org/files/2016/10/logo.png') no-repeat;
 	background-size: 214px 88px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -664,7 +664,7 @@ h1 *, h2 *, h3 *, h4 * {
 		width: 214px;
 		height: 88px;
 		text-indent: -9999px;
-		background: url('http://2017.bordeaux.wordcamp.org/files/2016/10/logo@2x.png') no-repeat;
+		background: url('https://2017.bordeaux.wordcamp.org/files/2016/10/logo@2x.png') no-repeat;
 		background-size: 214px 88px;
 	}
 }
@@ -723,6 +723,33 @@ li.current-menu-item {
 	padding: 0 10px;
 	transform: skewx(20deg);
 }
+
+#menu-item-21x a { font-weight: bold }
+#menu-item-21x a::after {
+	position: absolute;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('https://2017.bordeaux.wordcamp.org/files/2017/01/ticket.png') no-repeat center;
+	background-size: contain;
+	content: ' ';
+	animation-play-state: running;
+	animation: ticket 1s cubic-bezier(.9,-1,0.1,1) infinite;
+	animation-direction: alternate;
+}
+@keyframes ticket {
+    0% { transform: scale(1); }
+    100% { transform: scale(0.9); }
+}
+#menu-item-21x a:hover::after {
+	animation-play-state: paused;
+}
+#menu-item-21x.current-menu-item {
+	display: none;
+}
+
 @media (min-width: 670px) {
 	.main-navigation li + li > a::before {
 		/*color: rgba(255,255,255,0.3);
@@ -1015,7 +1042,7 @@ body.template-front-page #page .site-content {
 
 .home .hentry:not(.has-post-thumbnail) .entry-header {
 	min-height: 220px;
-	background: rgba(100,0,52,.5) url('http://2017.bordeaux.wordcamp.org/files/2016/10/wcbordeaux-2017-logo-h.png') no-repeat center;
+	background: rgba(100,0,52,.5) url('https://2017.bordeaux.wordcamp.org/files/2016/10/wcbordeaux-2017-logo-h.png') no-repeat center;
 }
 
 .home .entry-header .wp-post-image {
@@ -1082,7 +1109,7 @@ body.home #secondary {
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	background: url('http://2017.bordeaux.wordcamp.org/files/2016/11/Bordeaux_nuit-Credit_Thomas_Sanson.jpg') no-repeat center;
+	background: url('https://2017.bordeaux.wordcamp.org/files/2016/11/Bordeaux_nuit-Credit_Thomas_Sanson.jpg') no-repeat center;
 	background-size: cover;
 	height: 680px;
 	text-align: center;
@@ -1231,6 +1258,12 @@ body.home #secondary {
 	margin-bottom: 0;
 }
 
+#infos-principais #home-cta p {
+	font-size: 14px !important;
+	line-height: 18px !important;
+	text-shadow: 0 1px 3px #000;
+}
+
 #infos-principais i {
 	color: #fff;
 	text-shadow: 0 0 8px rgba(0,0,0,0.5);
@@ -1243,9 +1276,13 @@ body.home #secondary {
 	margin: 0 0 30px;
 	border-bottom: 1px solid rgba(255,255,255,.3);
 }
+
+#infos-principais .h_lieu span { display: inline-block; }
+
 #home-cta div + div {
 	/*margin-left: 30px;*/
 }
+
 #secondary .widget:first-child #chamada-principal .btn, a.btn-primary {
 	color: #fff !important;
 	display: block;
@@ -1369,17 +1406,17 @@ body.home #secondary {
 }
 
 .home #secondary .widget:nth-child(2) .attend-widget .header-widget-inner {
-	background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_2.png') no-repeat top center;
+	background: transparent url('https://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_2.png') no-repeat top center;
 	background-size: 72px 74px;
 }
 
 .home #secondary .widget:nth-child(2) .sponsor-widget .header-widget-inner {
-	background: transparent url('http://2017.bordeaux.wordcamp.org/files/2016/10/2017-wcbordeaux-sponsors.png') no-repeat top center;
+	background: transparent url('https://2017.bordeaux.wordcamp.org/files/2016/10/2017-wcbordeaux-sponsors.png') no-repeat top center;
 	background-size: 72px 74px;
 }
 
 .home #secondary .widget:nth-child(2) .speaker-widget .header-widget-inner {
-	background: transparent url('http://2017.bordeaux.wordcamp.org/files/2016/10/2017-wcbordeaux-orateurs.png') no-repeat top center;
+	background: transparent url('https://2017.bordeaux.wordcamp.org/files/2016/10/2017-wcbordeaux-orateurs.png') no-repeat top center;
 	background-size: 72px 74px;
 }
 
@@ -1457,7 +1494,7 @@ a.sponsor-logo:nth-child(2n+2) {
 
 body.single-attachment #primary,
 body.full-width #primary {
-	max-width: 990px;
+	max-width: 950px;
 	padding: 0;
 }
 
@@ -1511,7 +1548,6 @@ body.full-width #primary {
 #page .archive-header {
 	border: none;
 	text-align: left;
-	margin: 20px 0 0 0;
 }
 
 #page .wcb_sponsor
@@ -2232,9 +2268,6 @@ table.tix_tickets_table td.tix-column-remaining {
 .contact-form label span {
 	font-size: 11px;
 }
-.contact-form label {
-	width: 22em;
-}
 .contact-submit {
 	text-align: right;
 }
@@ -2309,6 +2342,7 @@ table.tix_tickets_table td.tix-column-remaining {
         width: 95%;
         min-width: 350px;
     }
+    .page #primary { min-width: auto }
 
 	.page #secondary,
 	.single #secondary {
@@ -2705,30 +2739,67 @@ table.tix_tickets_table td.tix-column-remaining {
 		content: "";
 	}
 
+	#tix td.tix-column-per-ticket,
 	#tix td.tix-column-price,
-		#tix td.tix-column-remaining,
-		#tix td.tix-column-quantity {
-		padding-top: 25px;
+	#tix td.tix-column-remaining,
+	#tix td.tix-column-quantity {
+		border: 0;
+		text-align: left;
+		font-size: 110%;
+		padding: 5px;
 	}
+	#tix tr.tix-row-total td { text-align: left }
+
+	#tix tr.tix-row-total td {
+		padding-top: 0;
+	}
+
+	#tix tr,
+	#tix td { border: 0 }
 
 	#tix td:before {
 		color: #636363;
-		font-size: 11px;
-		font-size: .785714286rem;
-		line-height: 2.181818182;
-		font-weight: 700;
+		font-weight: bold;
+	}
+
+	#tix .tix-attendee-form td.tix-left {
+		padding-bottom: 2px;
+		width: 90%;
+	}
+	#tix .tix-attendee-form td.tix-right {
+		padding-top: 0;
+		width: 90%;
+	}
+
+	#tix td.tix-column-per-ticket:before {
+		content: "Par ticket : ";
 	}
 
 	#tix td.tix-column-price:before {
-		content: "Preço";
+		content: "Prix : ";
 	}
 
 	#tix td.tix-column-remaining:before {
-		content: "Restante";
+		content: "Restant : ";
 	}
 
 	#tix td.tix-column-quantity:before {
-		content: "Quantidade";
+		content: "Quantité : ";
+	}
+
+	#tix tr.tix-row-total > td + td:before {
+		content: "TOTAL : ";
+	}
+
+	#tix .tix-attendee-form th {
+		background-color: #777;
+		color: white;
+		padding: 5px;
+	}
+
+	#tix input[type="radio"] {
+		position: relative;
+		top: 2px;
 	}
 
 	body.single-wcb_sponsor #page .entry-header h1,
@@ -3105,7 +3176,7 @@ div.author-info {
     display: none;
 }
 
-/* ------------ */
+/* ----- FOOTER Articles ------- */
 
 footer.entry-meta { margin-top: 5px !important; }
 footer.entry-meta a,
@@ -3120,10 +3191,10 @@ footer.entry-meta a[rel~=category] {
 footer.entry-meta a[rel~=bookmark] {
     font-weight: bold;
 }
-footer.entry-meta span.by-author a { font-weight: bold }*/
+footer.entry-meta span.by-author a { font-weight: bold }
 
 
-/* ------------ */
+/* ----- HOME ------- */
 
 .home #content {
     display: flex;
@@ -3185,4 +3256,30 @@ body.archive #page .entry-header {
 .grid .fa-clock-o + p,
 .grid .fa-map-marker + p {
     font-size: 20px !important;
+}
+
+/* ------ BILLETS ------- */
+
+.tix_tickets_table td {
+	color: black;
+}
+
+.tix-attendee-form td {
+	text-align: left;
+}
+
+.tix-row-question-643 .tix-left {
+	vertical-align: top;
+}
+
+#tix + p {
+	clear: both;
+	margin-top: 2em;
+	color: #444;
+}
+
+.tix-attendee-form .tix-row-first-name { border-top-width: 0; }
+
+.tix-ticket-form input[type="text"], .tix-ticket-form input[type="email"], .tix-ticket-form input[type="url"], .tix-ticket-form textarea, .tix-private-form input[type="text"], .tix-private-form input[type="email"], .tix-private-form input[type="url"], .tix-private-form textarea, .tix-attendee-form input[type="text"], .tix-attendee-form input[type="email"], .tix-attendee-form input[type="url"], .tix-attendee-form textarea, .tix-receipt-form input[type="text"], .tix-receipt-form input[type="email"], .tix-receipt-form input[type="url"], .tix-receipt-form textarea {
+	width: 100%;
 }
