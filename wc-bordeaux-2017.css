@@ -3286,6 +3286,66 @@ body.archive #page .entry-header {
 	width: 100%;
 }
 
-/* ------ BILLETS ------- */
+/* ------ CTA ------ */
+
+.cta {
+  position: relative;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #383736;
+  border: 1px rgba(255,255,255,0.8) solid;
+  border-radius: 3px;
+  box-shadow: 0 0 6px 0px #777;
+  font-size: 16px;
+  outline: 0;
+  overflow: hidden;
+  background: #640034;
+  z-index: 1;
+  cursor: pointer;
+  transition: background 0.3s ease-in;
+}
+
+
+.cta span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  text-align: center;
+  transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.cta span + span {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: -100%;
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.cta:hover{
+  background: #a12c6c;
+}
+
+.cta:hover span{
+  left: 100%;
+  opacity: 0;
+}
+
+.cta:hover span + span{
+  display: block;
+  left: 0;
+  opacity: 1;
+  color: white;
+  text-shadow: 0 0 2px white;
+}
+
+/*
+<button class="cta"><span>VOIR ICI !</span><span>ON Y VA →</span></button>
+*/
+
+
+/* ------ DIVERS ------- */
 
 .wp-caption-text { line-height: 1; }
