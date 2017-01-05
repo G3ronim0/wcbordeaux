@@ -3179,6 +3179,8 @@ div.author-info {
 /* ----- FOOTER Articles ------- */
 
 footer.entry-meta { margin-top: 5px !important; }
+.single footer.entry-meta { margin-top: 50px !important; }
+
 footer.entry-meta a,
 footer.entry-meta span {
     text-indent: 0;
@@ -3283,3 +3285,7 @@ body.archive #page .entry-header {
 .tix-ticket-form input[type="text"], .tix-ticket-form input[type="email"], .tix-ticket-form input[type="url"], .tix-ticket-form textarea, .tix-private-form input[type="text"], .tix-private-form input[type="email"], .tix-private-form input[type="url"], .tix-private-form textarea, .tix-attendee-form input[type="text"], .tix-attendee-form input[type="email"], .tix-attendee-form input[type="url"], .tix-attendee-form textarea, .tix-receipt-form input[type="text"], .tix-receipt-form input[type="email"], .tix-receipt-form input[type="url"], .tix-receipt-form textarea {
 	width: 100%;
 }
+
+/* ------ BILLETS ------- */
+
+.wp-caption-text { line-height: 1; }
