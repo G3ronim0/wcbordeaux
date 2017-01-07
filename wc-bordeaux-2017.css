@@ -597,23 +597,8 @@ h4.sponsor-level-title {
 	transition: all .5s ease;
 }
 
-.btn-quero-palestrar {
-	margin-top: 40px;
-}
-
-.btn-quero-palestrar a {
-	color: #640034 !important;
-	text-decoration: none;
-}
-
-.btn-quero-palestrar a:hover {
-	color: #ffb718 !important;
-	text-decoration: none;
-}
-
-.btn-quero-palestrar a .icone-palestrar {
-	margin-top: -10px;
-	margin-right: 10px;
+form * {
+    box-sizing: border-box;
 }
 
 input#searchsubmit, input[type="submit"] {
@@ -982,6 +967,9 @@ body.template-front-page #page .site-content {
 	border: 2px solid #640034;
 	color: #640034;
 	font-weight: bold;
+	box-shadow: none;
+	box-sizing: content-box;
+	padding: 6px;
 }
 .home #subscribe-submit input {
 	font-size: 1.15rem;
@@ -2213,6 +2201,8 @@ body.single-wcb_session .nav-single {
 	padding-top: 0;
 }
 
+.tix-attendee-form td.tix-left { text-align: right }
+
 #tix-attendees .avatar {
 	border-radius: 100%;
 }
@@ -2234,7 +2224,7 @@ table.tix_tickets_table th {
 
 table.tix_tickets_table th.tix-column-quantity,
 table.tix_tickets_table th.tix-column-remaining {
-	width: 80px;
+	width: 90px;
 }
 
 .tix-ticket-title {
@@ -2548,10 +2538,15 @@ table.tix_tickets_table th.tix-column-remaining {
 
 @media screen and (max-width: 600px) {
 
+	.page #main,
+	.single #main {
+		padding: 0 3%;
+	}
+
 	.page-template-default #content .entry-header h1.entry-title,
-.single #content .entry-header h1.entry-title,
-.error404 #content .entry-header h1.entry-title,
-.page-template-full-width #page .entry-title {
+	.single #content .entry-header h1.entry-title,
+	.error404 #content .entry-header h1.entry-title,
+	.page-template-full-width #page .entry-title {
 		margin-top: 25px !important;
 	}
 
@@ -2664,6 +2659,12 @@ table.tix_tickets_table th.tix-column-remaining {
 		td,
 		tr {
 		display: block;
+	}
+
+	.page #secondary,
+	.single #secondary {
+		width: 90%;
+		min-width: 300px;
 	}
 
 	.entry-content .t-key th {
@@ -2779,11 +2780,12 @@ table.tix_tickets_table th.tix-column-remaining {
 
 	#tix .tix-attendee-form td.tix-left {
 		padding-bottom: 2px;
-		width: 90%;
+		width: 100%;
+		text-align: left;
 	}
 	#tix .tix-attendee-form td.tix-right {
 		padding-top: 0;
-		width: 90%;
+		width: 100%;
 	}
 
 	#tix td.tix-column-per-ticket:before {
@@ -2812,10 +2814,21 @@ table.tix_tickets_table th.tix-column-remaining {
 		padding: 5px;
 	}
 
+	#tix .tix-attendee-form td { padding: 10px 25px }
+
 	#tix input[type="radio"] {
 		position: relative;
 		top: 2px;
 	}
+
+	.tix-order-summary .tix-column-description { width: 90%; }
+	.tix-order-summary .tix-column-description strong {
+		border: 1px solid gray;
+		border-width: 1px 0 1px 0;
+		background-color: #eee;
+		padding: 0 5px;
+	}
+	.tix-order-summary .tix-row-total td { font-size: 16px; }
 
 	body.single-wcb_sponsor #page .entry-header h1,
 		#page .archive-header h1 {
@@ -2847,6 +2860,10 @@ table.tix_tickets_table th.tix-column-remaining {
 }
 
 @media screen and (max-width: 500px) {
+	.page #main,
+	.single #main {
+		padding: 0 1%;
+	}
 	#home-logo {
 		display: none;
 	}
@@ -2891,6 +2908,8 @@ table.tix_tickets_table th.tix-column-remaining {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	#tix .tix-attendee-form td { padding: 10px 15px }
 
 	.jetpack_subscription_widget #subscribe-email { margin-left: 5px; }
 	.jetpack_subscription_widget #subscribe-submit { margin-left: 5px; }
@@ -3372,6 +3391,28 @@ body.archive #page .entry-header {
 <button class="cta"><span>VOIR ICI !</span><span>ON Y VA →</span></button>
 */
 
+/* ------ FORM -------- */
+
+.tix-attendee-form  {
+	background-color: #f0f0f0;
+}
+.tix-attendee-form th { background-color: #e5e5e5 }
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+  padding: 8px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s, border 0.6s;
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form select:focus,
+form textarea:focus {
+  box-shadow: 0 0 3px #fff, inset 1px 1px 2px 0 #c9c9c9;
+}
 
 /* ------ DIVERS ------- */
 
