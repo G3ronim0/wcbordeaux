@@ -724,8 +724,8 @@ li.current-menu-item {
 	transform: skewx(20deg);
 }
 
-#menu-item-21x a { font-weight: bold }
-#menu-item-21x a::after {
+#menu-item-33 a { font-weight: bold }
+#menu-item-33 a::after {
 	position: absolute;
 	opacity: 0.3;
 	top: 0;
@@ -736,17 +736,14 @@ li.current-menu-item {
 	background-size: contain;
 	content: ' ';
 	animation-play-state: running;
-	animation: ticket 1s cubic-bezier(.9,-1,0.1,1) infinite;
+	animation: ticket 1s ease infinite;
 	animation-direction: alternate;
 }
 @keyframes ticket {
     0% { transform: scale(1); }
     100% { transform: scale(0.9); }
 }
-#menu-item-21x a:hover::after {
-	animation-play-state: paused;
-}
-#menu-item-21x.current-menu-item {
+#menu-item-33.current-menu-item a::after {
 	display: none;
 }
 
@@ -1174,6 +1171,9 @@ body.home #secondary {
     .home .grid .fa-map-marker + p {
         font-size: 18px !important;
     }
+    .home .grid .fa-3x + p {
+        font-size: 20px !important;
+    }
 }
 
 @media (max-width: 750px) {
@@ -1216,6 +1216,13 @@ body.home #secondary {
 	.jetpack_subscription_widget #subscribe-email { margin-left: 2em; }
 	.jetpack_subscription_widget #subscribe-submit { margin-right: 2em; }
 
+    .home .grid .fa-3x + p {
+        font-size: 19px !important;
+    }
+
+    .fa-4x { font-size: 4em; }
+	.fa-3x { font-size: 3em; }
+
 }
 
 @media (max-width: 570px) {
@@ -1237,6 +1244,15 @@ body.home #secondary {
     .home .main .grid .fa-clock-o + p,
     .home .main .grid .fa-map-marker + p {
         font-size: 17px !important;
+    }
+    .home .main .grid .fa-3x + p {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 410px) {
+	.home .main .grid .fa-3x + p {
+        font-size: 16px !important;
     }
 }
 
@@ -1281,6 +1297,10 @@ body.home #secondary {
 
 #home-cta div + div {
 	/*margin-left: 30px;*/
+}
+
+.fa-3x + p {
+	text-shadow: 0 0 3px black !important;
 }
 
 #secondary .widget:first-child #chamada-principal .btn, a.btn-primary {
@@ -2217,11 +2237,6 @@ table.tix_tickets_table th.tix-column-remaining {
 	width: 80px;
 }
 
-table.tix_tickets_table th.tix-column-remaining,
-table.tix_tickets_table td.tix-column-remaining {
-	display: none;
-}
-
 .tix-ticket-title {
 	font-size: 1.3em;
 }
@@ -2831,7 +2846,7 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 }
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 500px) {
 	#home-logo {
 		display: none;
 	}
@@ -2852,10 +2867,18 @@ table.tix_tickets_table td.tix-column-remaining {
 		padding-top: 0;
 		padding-bottom: 15px;
 	}
+	#infos-principais i.fa-4x + p {
+		padding-top: 0;
+		padding-bottom: 5px;
+	}
+
     .grid .fa-calendar + p,
     .grid .fa-clock-o + p,
     .grid .fa-map-marker + p {
         font-size: 16px !important;
+    }
+    .grid .fa-3x + p {
+        font-size: 18px !important;
     }
 
     #infos-principais > div:first-child {
@@ -3259,6 +3282,9 @@ body.archive #page .entry-header {
 .grid .fa-map-marker + p {
     font-size: 20px !important;
 }
+.grid .fa-3x + p {
+    font-size: 20px !important;
+}
 
 /* ------ BILLETS ------- */
 
@@ -3350,3 +3376,15 @@ body.archive #page .entry-header {
 /* ------ DIVERS ------- */
 
 .wp-caption-text { line-height: 1; }
+
+.dashicons {
+	width: auto;
+	height: auto;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-4x { font-size: 4.5em !important; }
+.fa-3x { font-size: 3.25em !important; }
