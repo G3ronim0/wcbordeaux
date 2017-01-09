@@ -3337,20 +3337,30 @@ body.archive #page .entry-header {
   position: relative;
   display: inline-block;
   margin-top: 10px;
-  padding: 8px 16px;
+  padding: 8px 30px;
   color: white ;
   border: 1px rgba(255,255,255,0.8) solid;
   border-radius: 4px;
   box-shadow: 0 0 6px 0px #777;
   font-size: 16px;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: bold;
   outline: 0;
   overflow: hidden;
   background: #640034;
   z-index: 1;
   cursor: pointer;
   transition: background 0.3s ease-in;
+}
+
+#page .cta .dashicons-before::before {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: -2px;
+    left: -2px;
+    font-size: 34px;
+    padding: 0 5px;
 }
 
 
