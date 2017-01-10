@@ -709,8 +709,8 @@ li.current-menu-item {
 	transform: skewx(20deg);
 }
 
-#menu-item-33x a { font-weight: bold }
-#menu-item-33x a::after {
+#menu-item-1196 a { font-weight: bold }
+#menu-item-1196 a::after {
 	position: absolute;
 	opacity: 0.3;
 	top: 0;
@@ -728,7 +728,7 @@ li.current-menu-item {
     0% { transform: scale(1); }
     100% { transform: scale(0.9); }
 }
-#menu-item-33x.current-menu-item a::after {
+#menu-item-1196.current-menu-item a::after {
 	display: none;
 }
 
