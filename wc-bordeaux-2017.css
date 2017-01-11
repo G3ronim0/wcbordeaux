@@ -709,8 +709,8 @@ li.current-menu-item {
 	transform: skewx(20deg);
 }
 #menu-item-1196 ul { left: 3px }
-#menu-item-1196 a { font-weight: bold }
-#menu-item-1196 a::after {
+#menu-item-1196 > a { font-weight: bold }
+#menu-item-1196 > a::after {
 	position: absolute;
 	opacity: 0.3;
 	top: 0;
