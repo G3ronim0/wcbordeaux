@@ -2207,7 +2207,7 @@ body.single-wcb_session .nav-single {
 	border-radius: 100%;
 }
 
-.tix-attendee-url {
+#tix-attendees .tix-attendee-url {
 	display: none;
 }
 
