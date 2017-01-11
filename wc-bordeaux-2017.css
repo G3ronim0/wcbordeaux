@@ -523,11 +523,11 @@ a:hover {
 	text-transform: uppercase;
 }
 button, input, select, textarea {
-    border: 1px solid #ccc;
-    border-radius: 0;
-    font-family: inherit;
-    padding: 6px;
-    padding: 0.428571429rem;
+		border: 1px solid #ccc;
+		border-radius: 0;
+		font-family: inherit;
+		padding: 6px;
+		padding: 0.428571429rem;
 }
 h2 {
 	font-weight: 600;
@@ -598,7 +598,7 @@ h4.sponsor-level-title {
 }
 
 form * {
-    box-sizing: border-box;
+		box-sizing: border-box;
 }
 
 input#searchsubmit, input[type="submit"] {
@@ -725,8 +725,8 @@ li.current-menu-item {
 	animation-direction: alternate;
 }
 @keyframes ticket {
-    0% { transform: scale(1); }
-    100% { transform: scale(0.9); }
+		0% { transform: scale(1); }
+		100% { transform: scale(0.9); }
 }
 #menu-item-1196.current-menu-item a::after {
 	display: none;
@@ -1048,16 +1048,16 @@ body.template-front-page #page .site-content {
 }
 
 .home .entry-title a::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: calc(-100% + 40px);
-    z-index: 2;
-    line-height: 0;
-    height: auto;
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin-top: calc(-100% + 40px);
+		z-index: 2;
+		line-height: 0;
+		height: auto;
 }
 
 .home .entry-content {
@@ -1139,9 +1139,9 @@ body.home #secondary {
 }
 
 @media (max-width: 900px) {
-    #home-logo {
-    height: 320px !important;
-    }
+		#home-logo {
+		height: 320px !important;
+		}
 	.site-header {
 		flex-direction: column;
 		height: auto;
@@ -1150,18 +1150,18 @@ body.home #secondary {
 		padding-right: 0 !important;
 	}
 
-    .home-logo {
-        height: 320px !important;
-    }
+		.home-logo {
+				height: 320px !important;
+		}
 
-    .home .grid .fa-calendar + p,
-    .home .grid .fa-clock-o + p,
-    .home .grid .fa-map-marker + p {
-        font-size: 18px !important;
-    }
-    .home .grid .fa-3x + p {
-        font-size: 20px !important;
-    }
+		.home .grid .fa-calendar + p,
+		.home .grid .fa-clock-o + p,
+		.home .grid .fa-map-marker + p {
+				font-size: 18px !important;
+		}
+		.home .grid .fa-3x + p {
+				font-size: 20px !important;
+		}
 }
 
 @media (max-width: 750px) {
@@ -1204,11 +1204,11 @@ body.home #secondary {
 	.jetpack_subscription_widget #subscribe-email { margin-left: 2em; }
 	.jetpack_subscription_widget #subscribe-submit { margin-right: 2em; }
 
-    .home .grid .fa-3x + p {
-        font-size: 19px !important;
-    }
+		.home .grid .fa-3x + p {
+				font-size: 19px !important;
+		}
 
-    .fa-4x { font-size: 4em; }
+		.fa-4x { font-size: 4em; }
 	.fa-3x { font-size: 3em; }
 
 }
@@ -1224,24 +1224,24 @@ body.home #secondary {
 		text-shadow: 0 1px 2px #000 !important;
 	}
 
-    .home .home-logo {
-        height: 300px !important;
-    }
+		.home .home-logo {
+				height: 300px !important;
+		}
 
-    .home .main .grid .fa-calendar + p,
-    .home .main .grid .fa-clock-o + p,
-    .home .main .grid .fa-map-marker + p {
-        font-size: 17px !important;
-    }
-    .home .main .grid .fa-3x + p {
-        font-size: 18px !important;
-    }
+		.home .main .grid .fa-calendar + p,
+		.home .main .grid .fa-clock-o + p,
+		.home .main .grid .fa-map-marker + p {
+				font-size: 17px !important;
+		}
+		.home .main .grid .fa-3x + p {
+				font-size: 18px !important;
+		}
 }
 
 @media (max-width: 410px) {
 	.home .main .grid .fa-3x + p {
-        font-size: 16px !important;
-    }
+				font-size: 16px !important;
+		}
 }
 
 #infos-principais {
@@ -2207,6 +2207,10 @@ body.single-wcb_session .nav-single {
 	border-radius: 100%;
 }
 
+.tix-attendee-url {
+	display: none;
+}
+
 #tix-attendees .tix-columns-3 li {
 	margin: 0 2% 2%;
 	width: 29%;
@@ -2340,46 +2344,46 @@ table.tix_tickets_table th.tix-column-remaining {
 		padding:	0 2em;
 	}
 
-    .page #primary,
-    .single #primary {
-        padding: 0;
-        margin: 0 auto;
-        width: 95%;
-        min-width: 350px;
-    }
-    .page #primary { min-width: auto }
+		.page #primary,
+		.single #primary {
+				padding: 0;
+				margin: 0 auto;
+				width: 95%;
+				min-width: 350px;
+		}
+		.page #primary { min-width: auto }
 
 	.page #secondary,
 	.single #secondary {
-        width: 50%;
-        min-width: 350px;
+				width: 50%;
+				min-width: 350px;
 		max-width: 100%;
 		margin: 0 auto;
 	}
 
-    .widget .sponsor-level.imperiale a.sponsor-logo {
-        width: 45%;
-        min-width: 350px;
-        margin: 0 15px 20px;
-    }
+		.widget .sponsor-level.imperiale a.sponsor-logo {
+				width: 45%;
+				min-width: 350px;
+				margin: 0 15px 20px;
+		}
 
-    .widget .sponsor-level.jeroboam a.sponsor-logo {
-        width: 30%;
-        min-width: 270px;
-        margin: 0 15px 20px;
-    }
+		.widget .sponsor-level.jeroboam a.sponsor-logo {
+				width: 30%;
+				min-width: 270px;
+				margin: 0 15px 20px;
+		}
 
-    .widget .sponsor-level.magnum a.sponsor-logo {
-        width: 23%;
-        min-width: 200px;
-        margin: 0 10px 20px;
-    }
+		.widget .sponsor-level.magnum a.sponsor-logo {
+				width: 23%;
+				min-width: 200px;
+				margin: 0 10px 20px;
+		}
 
-    .widget .sponsor-level.bordelaise a.sponsor-logo {
-        width: 19%;
-        min-width: 180px;
-        margin: 0 10px 20px;
-    }
+		.widget .sponsor-level.bordelaise a.sponsor-logo {
+				width: 19%;
+				min-width: 180px;
+				margin: 0 10px 20px;
+		}
 
 	.entry-content {
 		padding: 0 0 25px 0;
@@ -2682,10 +2686,10 @@ table.tix_tickets_table th.tix-column-remaining {
 	#table_sponsors th small {
 		display: inline !important;
 		font-size: 15px;
-    }
-    #table_sponsors th small:before {
+		}
+		#table_sponsors th small:before {
 		content: ': ';
-    }
+		}
 
 	thead tr {
 		position: absolute;
@@ -2889,18 +2893,18 @@ table.tix_tickets_table th.tix-column-remaining {
 		padding-bottom: 5px;
 	}
 
-    .grid .fa-calendar + p,
-    .grid .fa-clock-o + p,
-    .grid .fa-map-marker + p {
-        font-size: 16px !important;
-    }
-    .grid .fa-3x + p {
-        font-size: 18px !important;
-    }
+		.grid .fa-calendar + p,
+		.grid .fa-clock-o + p,
+		.grid .fa-map-marker + p {
+				font-size: 16px !important;
+		}
+		.grid .fa-3x + p {
+				font-size: 18px !important;
+		}
 
-    #infos-principais > div:first-child {
-        border-bottom: none;
-    }
+		#infos-principais > div:first-child {
+				border-bottom: none;
+		}
 }
 
 @media screen and (max-width: 439px) {
@@ -3111,7 +3115,7 @@ ul#session-speaker-names li {
 	margin-top: 30px;
 }
 #subscribe-email input {
-    width: 93% !important;
+		width: 93% !important;
 }
 .page-template-default #content .entry-header h1.entry-title,
 .single #content .entry-header h1.entry-title,
@@ -3161,61 +3165,61 @@ ul#session-speaker-names li {
 }
 
 .sponsor-level h4 {
-    display: block;
-    width: 100%;
-    font-size: 120% !important;
-    padding-bottom: 5px;
-    border: 1px dashed gray;
-    border-width: 0 0 1px 0;
+		display: block;
+		width: 100%;
+		font-size: 120% !important;
+		padding-bottom: 5px;
+		border: 1px dashed gray;
+		border-width: 0 0 1px 0;
 }
 
 .sponsor-level.imperiale h4 {
-    margin-top: 40px;
-    text-shadow: 0 0 4px rgba(254,238,192,0.5);
+		margin-top: 40px;
+		text-shadow: 0 0 4px rgba(254,238,192,0.5);
 }
 
 .sponsor-level {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
 }
 
 .widget a.sponsor-logo {
-    margin-bottom: 10px;
+		margin-bottom: 10px;
 }
 
 .home .widget a.sponsor-logo {
-    margin-bottom: 20px;
+		margin-bottom: 20px;
 }
 
 .home .widget .sponsor-level.imperiale a.sponsor-logo {
-    width: 45%;
-    min-width: 350px;
-    margin: 0 15px 20px;
+		width: 45%;
+		min-width: 350px;
+		margin: 0 15px 20px;
 }
 
 .home .widget .sponsor-level.jeroboam a.sponsor-logo {
-    width: 30%;
-    min-width: 270px;
-    margin: 0 15px 20px;
+		width: 30%;
+		min-width: 270px;
+		margin: 0 15px 20px;
 }
 
 .home .widget .sponsor-level.magnum a.sponsor-logo {
-    width: 23%;
-    min-width: 200px;
-    margin: 0 10px 20px;
+		width: 23%;
+		min-width: 200px;
+		margin: 0 10px 20px;
 }
 
 .home .widget .sponsor-level.bordelaise a.sponsor-logo {
-    width: 19%;
-    min-width: 180px;
-    margin: 0 10px 20px;
+		width: 19%;
+		min-width: 180px;
+		margin: 0 10px 20px;
 }
 
 div.author-info {
-    display: none;
+		display: none;
 }
 
 /* ----- FOOTER Articles ------- */
@@ -3225,15 +3229,15 @@ footer.entry-meta { margin-top: 5px !important; }
 
 footer.entry-meta a,
 footer.entry-meta span {
-    text-indent: 0;
-    text-decoration: none !important;
+		text-indent: 0;
+		text-decoration: none !important;
 }
 footer.entry-meta a:hover { text-decoration: underline !important; }
 footer.entry-meta a[rel~=category] {
-    font-weight: bold;
+		font-weight: bold;
 }
 footer.entry-meta a[rel~=bookmark] {
-    font-weight: bold;
+		font-weight: bold;
 }
 footer.entry-meta span.by-author a { font-weight: bold }
 
@@ -3241,38 +3245,38 @@ footer.entry-meta span.by-author a { font-weight: bold }
 /* ----- HOME ------- */
 
 .home #content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: stretch;
 }
 
 body.blog .site-content article,
 body.error404 .site-content article,
 body.archive .site-content article {
-    /* flex-grow: 0; */
+		/* flex-grow: 0; */
 }
 
 .home .hentry {
-    width: 400px;
-    margin: 0 10px !important;
-    flex-grow: 0;
+		width: 400px;
+		margin: 0 10px !important;
+		flex-grow: 0;
 }
 
 body.blog #page .entry-header,
 body.archive #page .entry-header {
-    margin: 0 0 5px 0;
+		margin: 0 0 5px 0;
 }
 
 .entry-header img.wp-post-image {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
 }
 
 .home .entry-header img.wp-post-image {
-    height: 400px;
-    object-fit: cover;
+		height: 400px;
+		object-fit: cover;
 }
 
 .home .wcb_widget_sponsors .widget-title {
@@ -3299,10 +3303,10 @@ body.archive #page .entry-header {
 .grid .fa-calendar + p,
 .grid .fa-clock-o + p,
 .grid .fa-map-marker + p {
-    font-size: 20px !important;
+		font-size: 20px !important;
 }
 .grid .fa-3x + p {
-    font-size: 20px !important;
+		font-size: 20px !important;
 }
 
 /* ------ BILLETS ------- */
@@ -3334,72 +3338,72 @@ body.archive #page .entry-header {
 /* ------ CTA ------ */
 /* le #page est là pour forcer les règles */
 #page .cta {
-  position: relative;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 30px;
-  min-width: 120px;
-  color: white ;
-  border: 1px rgba(255,255,255,0.8) solid;
-  border-radius: 4px;
-  box-shadow: 0 0 6px 0px #777;
-  font-size: 16px;
-  text-decoration: none;
-  font-weight: bold;
-  outline: 0;
-  overflow: hidden;
-  background: #640034;
-  z-index: 1;
-  cursor: pointer;
-  transition: background 0.3s ease-in;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 8px 30px;
+	min-width: 120px;
+	color: white ;
+	border: 1px rgba(255,255,255,0.8) solid;
+	border-radius: 4px;
+	box-shadow: 0 0 6px 0px #777;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+	outline: 0;
+	overflow: hidden;
+	background: #640034;
+	z-index: 1;
+	cursor: pointer;
+	transition: background 0.3s ease-in;
 }
 
 #page .cta .dashicons-before::before {
-    width: auto;
-    height: auto;
-    position: relative;
-    top: -2px;
-    left: -2px;
-    font-size: 34px;
-    padding: 0 5px;
+		width: auto;
+		height: auto;
+		position: relative;
+		top: -2px;
+		left: -2px;
+		font-size: 34px;
+		padding: 0 5px;
 }
 
 
 #page .cta span {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  text-align: center;
-  transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	text-align: center;
+	transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
 #page .cta span + span {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  left: -100%;
-  opacity: 0;
-  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	height: 100%;
+	width: 100%;
+	position: relative;
+	left: -100%;
+	opacity: 0;
+	transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
 #page .cta:hover{
-  background: #a12c6c;
-  text-decoration: none;
-  font-weight: normal;
+	background: #a12c6c;
+	text-decoration: none;
+	font-weight: normal;
 }
 
 #page .cta:hover span{
-  left: 100%;
-  opacity: 0;
+	left: 100%;
+	opacity: 0;
 }
 
 #page .cta:hover span + span{
-  display: block;
-  left: 0;
-  opacity: 1;
-  color: white;
-  text-shadow: 0 0 2px black;
+	display: block;
+	left: 0;
+	opacity: 1;
+	color: white;
+	text-shadow: 0 0 2px black;
 }
 
 /*
@@ -3418,17 +3422,17 @@ form input[type="email"],
 form input[type="url"]:focus,
 form select,
 form textarea {
-  padding: 8px;
-  border: solid 1px #fff;
-  box-shadow: inset 1px 1px 2px 0 #707070;
-  transition: box-shadow 0.3s, border 0.6s;
+	padding: 8px;
+	border: solid 1px #fff;
+	box-shadow: inset 1px 1px 2px 0 #707070;
+	transition: box-shadow 0.3s, border 0.6s;
 }
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="url"]:focus,
 form select:focus,
 form textarea:focus {
-  box-shadow: 0 0 3px #fff, inset 1px 1px 2px 0 #c9c9c9;
+	box-shadow: 0 0 3px #fff, inset 1px 1px 2px 0 #c9c9c9;
 }
 
 /* ------ DIVERS ------- */
@@ -3438,10 +3442,10 @@ form textarea:focus {
 .dashicons {
 	width: auto;
 	height: auto;
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+		display: inline-block;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 }
 
 .fa-4x { font-size: 5em !important; }
