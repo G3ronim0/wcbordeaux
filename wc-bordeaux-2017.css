@@ -3040,6 +3040,7 @@ th.wpct-col-time {
 
 table.wcpt-schedule td {
 	border: 1px solid #ddd !important;
+	vertical-align: middle;
 }
 
 table.wcpt-schedule th {
@@ -3074,14 +3075,13 @@ a.wcpt-session-title {
 
 td.wcpt-time {
 	width: 30px;
-	vertical-align: middle;
 	background: #eee;
 	font-weight: 700;
 }
 
-td.wcb-track-sala-1,
-td.wcb-track-sala-2 {
-	width: 40%;
+td.wcb-track-brisbane,
+td.wcb-track-brasilia {
+	width: 50%;
 }
 
 .widget a.sponsor-logo {
