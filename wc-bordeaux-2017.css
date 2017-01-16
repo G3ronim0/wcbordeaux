@@ -2255,6 +2255,14 @@ table.tix_tickets_table th.tix-column-remaining {
 	margin-right: .5em;
 }
 
+.contact-form label.checkbox {
+	width: 100%;
+}
+
+.contact-form label.checkbox input {
+	margin: 3px 10px 13px 4px;
+}
+
 .contact-form input:not([type=submit]) {
 	flex: 1;
 /* fluid width */
