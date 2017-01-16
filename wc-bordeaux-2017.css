@@ -2260,6 +2260,7 @@ table.tix_tickets_table th.tix-column-remaining {
 }
 
 .contact-form label.checkbox input {
+	float: left;
 	margin: 3px 10px 13px 4px;
 }
 
