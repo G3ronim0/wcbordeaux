@@ -3453,3 +3453,6 @@ form textarea:focus {
 
 .fa-4x { font-size: 5em !important; }
 .fa-3x { font-size: 3.25em !important; }
+
+/* logo ohmyweb */
+.home #post-1563 header .attachment-post-thumbnail { object-fit: contain }
