@@ -1437,18 +1437,6 @@ body.home #secondary {
 	font-weight: 700;
 }
 
-.sponsor-level.pao-de-queijo .sponsor-logo,
-.sponsor-level.torresmo .sponsor-logo {
-	width: 40%;
-	float: left;
-	margin: 0 5%;
-}
-
-.sponsor-level.tropeirao .sponsor-logo {
-	width: 70%;
-	margin: 0 15%;
-}
-
 a.sponsor-logo:nth-child(2n+2) {
 	clear: both;
 }
@@ -2975,56 +2963,6 @@ body.single-wcb_speaker h2.speaker-sessions {
 	line-height: 18px;
 }
 
-/*.wcorg-speakers .wcorg-speaker a.social.website,
-.single-wcb_speaker a.website {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/www-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.facebook,
-.single-wcb_speaker a.social.facebook {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/facebook-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.twitter,
-.single-wcb_speaker a.social.twitter {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/twitter-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.googleplus,
-.single-wcb_speaker a.social.googleplus {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/googleplus-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.linkedin,
-.single-wcb_speaker a.social.linkedin {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/linkedin-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.instagram,
-.single-wcb_speaker a.social.instagram {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/instagram-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.pinterest,
-.single-wcb_speaker a.social.pinterest {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/pinterest-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.github,
-.single-wcb_speaker a.social.github {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/github-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.youtube,
-.single-wcb_speaker a.social.youtube {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/youtube-icon.png');
-}
-
-.wcorg-speakers .wcorg-speaker a.social.email,
-.single-wcb_speaker a.social.email {
-	background-image: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/mail-icon.png');
-}*/
-
 .wcorg-speakers .wcorg-speaker .wcorg-speaker-description {
 	margin-bottom: 30px;
 }
@@ -3054,7 +2992,7 @@ table.wcpt-schedule td {
 
 table.wcpt-schedule th {
 	background: #640034;
-	border: 1px solid #640034 !important;
+	border: 1px solid #3B001E !important;
 	color: #fff;
 	text-align: center;
 }
@@ -3436,6 +3374,102 @@ form input[type="url"]:focus,
 form select:focus,
 form textarea:focus {
 	box-shadow: 0 0 3px #fff, inset 1px 1px 2px 0 #c9c9c9;
+}
+
+/* ----- PROGRAMME ------- */
+th.wcpt-col-time {
+	hyphens: none;
+}
+
+td.wcpt-time {
+	text-align: center !important;
+}
+
+tr.global-session td {
+	border-bottom-color: #999 !important;
+}
+
+table.wcpt-schedule {
+	line-height: 1.25;
+	hyphens: none;
+}
+
+.wcpt-schedule .wcpt-session-speakers {
+	margin-top: .5em;
+}
+
+.wcpt-schedule a {
+	display: block;
+	background-color: #fff;
+	transition: all .2s;
+}
+
+.wcpt-schedule a:hover {
+	text-shadow: 1px 1px 1px #bbb;
+	background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 700px) {
+
+	table.wcpt-schedule td {
+		box-sizing: border-box;
+		border: 0 !important;
+	}
+
+	.wcpt-schedule td.wcpt-time {
+		width: 100%;
+		border-bottom: 2px solid #640034 !important;
+		color: #333;
+	}
+
+	.wcpt-session-title { color: black; }
+
+	td.wcb-track-brisbane, td.wcb-track-brasilia {
+		width: 100%;
+	}
+
+	.wcpt-schedule td {
+		border: none !important;
+		padding: 0;
+	}
+
+	td.wcpt-time { padding: 8px 0 }
+
+	.wcpt-session-type-custom {
+		background-color: #fefef9;
+	}
+
+	.wcpt-session-type-session {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border-bottom: 2px solid #640034;
+	}
+
+	.wcpt-schedule td.wcpt-session-type-session:nth-child(even) {
+		border-bottom: 2px solid #640034 !important;
+	}
+
+	.wcpt-session-type-session::before {
+		position: static !important;
+		color: #666;
+	    content: attr( data-track-title );
+	    border: 1px dotted #640034 !important;
+	    border-width: 0 0 1px 0 !important;
+	    margin-bottom: 0;
+	    background-color: rgba(68,0,35,.1);
+	}
+
+	span.wcpt-session-speakers::before {
+		display: none;
+	}
+
+	.wcpt-schedule .wcpt-session-speakers {
+		margin-top: 0;
+	}
+	.wcpt-schedule .wcpt-session-speakers a {
+		padding: 10px;
+	}
+
 }
 
 /* ------ DIVERS ------- */
