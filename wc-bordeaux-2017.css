@@ -3494,9 +3494,13 @@ table.wcpt-schedule {
 
 }
 
-/* ------ SESSIONS ------- */
 .wcorg-session-description .wcpt-session-meta {
 	font-weight: bold
+}
+
+.speaker-sessions .speaker-session-names {
+	font-size: 1.25em;
+	font-weight: bold;
 }
 
 /* ------ DIVERS ------- */
