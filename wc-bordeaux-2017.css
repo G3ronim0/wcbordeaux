@@ -3490,3 +3490,21 @@ table.wcpt-schedule {
 
 /* logo ohmyweb */
 .home #post-1563 header .attachment-post-thumbnail { object-fit: contain }
+
+/* essai adblock */
+.wcb_widget_sponsors .sponsor-logo img {
+    max-height: 150px;
+    width: auto;
+}
+
+#nav-below {
+	flex-basis: 100%
+}
+
+/* Infinite scroll */
+.infinite-wrap {
+    border-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
