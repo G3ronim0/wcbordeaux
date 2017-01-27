@@ -3488,8 +3488,10 @@ table.wcpt-schedule {
 .fa-4x { font-size: 5em !important; }
 .fa-3x { font-size: 3.25em !important; }
 
-/* logo ohmyweb */
-.home #post-1563 header .attachment-post-thumbnail { object-fit: contain }
+/* logo contain */
+.home #post-1563 header .attachment-post-thumbnail,
+.home #post-1715 header .attachment-post-thumbnail
+ { object-fit: contain }
 
 /* essai adblock */
 .wcb_widget_sponsors .sponsor-logo img {
