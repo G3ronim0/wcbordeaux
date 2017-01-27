@@ -2083,6 +2083,7 @@ body.single-wcba_sponsor .site-content nav {
 
 .wcorg-speaker p {
 	margin: 0 0 30px;
+	line-height: 1.75;
 }
 
 .speaker-avatar {
@@ -2153,6 +2154,7 @@ article.type-wcb_speaker .entry-content h2 {
 
 .wcorg-session p {
 	margin: 0;
+    line-height: 1.75;
 }
 
 .wcorg-session h2 {
@@ -2161,9 +2163,13 @@ article.type-wcb_speaker .entry-content h2 {
 
 .wcpt-session-meta {
 	font-size: 12px;
+	font-weight: bold;
 	padding: 5px 10px;
+	margin-bottom: 1em;
 	border-left: 4px solid #640034;
-	background: #ffd;
+	background: #fefef9;
+	border-bottom: 1em solid #fff;
+	margin-top: 1em !important;
 }
 
 .wcorg-session .photo.grav-hashed.grav-hijack {
@@ -2174,6 +2180,22 @@ article.type-wcb_speaker .entry-content h2 {
 .wcorg-session-description {
 	overflow: auto;
 	zoom: 1;
+}
+
+.wcorg-session-description img {
+	float: left;
+	margin: 0.5em 1em 0 0;
+	border-radius: 50%;
+}
+
+.wcorg-session-description ul,
+.wcorg-session-description ol {
+	list-style: disc inside;
+	clear: both;
+}
+
+.wcorg-session-description li {
+	margin: 0.5em 0 0 0.5em;
 }
 
 body.single-wcb_session footer.entry-meta {
@@ -3470,6 +3492,11 @@ table.wcpt-schedule {
 		padding: 10px;
 	}
 
+}
+
+/* ------ SESSIONS ------- */
+.wcorg-session-description .wcpt-session-meta {
+	font-weight: bold
 }
 
 /* ------ DIVERS ------- */
