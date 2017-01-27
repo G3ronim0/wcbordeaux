@@ -510,7 +510,8 @@ a:visited {
 	text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
 	color: #2d168a;
 	text-decoration: underline;
 }
@@ -591,7 +592,8 @@ h4.sponsor-level-title {
 	transition: all .5s ease;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
 	background-color: #a12c6c;
 	text-decoration: none;
 	transition: all .5s ease;
@@ -612,7 +614,9 @@ input#searchsubmit, input[type="submit"] {
 }
 
 input#searchsubmit:hover,
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+input#searchsubmit:focus,
+input[type="submit"]:focus {
 	background: #a12c6c;
 	color: #fff;
 	text-decoration: none;
@@ -765,7 +769,8 @@ li.current-menu-item {
 	color: white !important;
 }
 
-.main-navigation li ul li a:hover {
+.main-navigation li ul li a:hover,
+.main-navigation li ul li a:focus {
 	background-color: #a12c6c !important;
 	color: white !important;
 }
@@ -800,7 +805,8 @@ li.current-menu-item {
 	padding-right: 25px;
 }
 
-.main-navigation li.entradas a:hover {
+.main-navigation li.entradas a:hover,
+.main-navigation li.entradas a:focus {
 	background: rgba(0,0,0,0.1);
 }
 
@@ -822,7 +828,8 @@ li.current-menu-item {
 	width: 19px;
 }
 
-.main-navigation li.twitter a:hover {
+.main-navigation li.twitter a:hover,
+.main-navigation li.twitter a:focus {
 	background-position: left center;
 }
 
@@ -833,7 +840,8 @@ li.current-menu-item {
 	width: 15px;
 }
 
-.main-navigation li.facebook a:hover {
+.main-navigation li.facebook a:hover,
+.main-navigation li.facebook a:focus {
 	background-position: left center;
 }
 
@@ -890,7 +898,8 @@ footer[role="contentinfo"] a {
 	transition: all .5s ease;
 }
 
-footer[role="contentinfo"] a:hover {
+footer[role="contentinfo"] a:hover,
+footer[role="contentinfo"] a:focus {
 	color: rgba(255,255,255,0.65);
 }
 
@@ -1042,7 +1051,8 @@ body.template-front-page #page .site-content {
 	text-align: center;
 }
 
-.home .entry-header .entry-title a:hover {
+.home .entry-header .entry-title a:hover,
+.home .entry-header .entry-title a:focus {
 	background: #a12c6c;
 	color: #fff;
 }
@@ -1331,7 +1341,8 @@ body.home #secondary {
 	transition: all .5s ease;
 }
 
-.home #secondary .widget:first-child #register-widget .button:hover {
+.home #secondary .widget:first-child #register-widget .button:hover,
+.home #secondary .widget:first-child #register-widget .button:focus {
 	background-color: #640034;
 	color: #fff;
 	text-decoration: none;
@@ -1588,7 +1599,8 @@ body.full-width #primary {
 	transition: all .5s ease;
 }
 
-.entry-header .entry-title a:hover {
+.entry-header .entry-title a:hover,
+.entry-header .entry-title a:focus {
 	color: #333;
 }
 
@@ -1597,7 +1609,8 @@ body.archive .archive-header .archive-title a {
 	transition: all .5s ease;
 }
 
-body.archive .archive-header .archive-title a:hover {
+body.archive .archive-header .archive-title a:hover,
+body.archive .archive-header .archive-title a:focus {
 	color: #fff;
 }
 
@@ -1639,7 +1652,9 @@ body.archive .entry-content {
 }
 
 .entry-content a:hover,
-.comment-content a:hover {
+.comment-content a:hover,
+.entry-content a:focus,
+.comment-content a:focus {
 	color: #333;
 	text-decoration: none;
 }
@@ -1659,7 +1674,8 @@ body.archive .entry-content {
 	transition: all .5s ease;
 }
 
-#page .more-link:hover {
+#page .more-link:hover,
+#page .more-link:focus {
 	background-color: #640034;
 	color: #fff;
 	text-decoration: none;
@@ -1711,7 +1727,8 @@ img.alignnone {
 	display: block;
 }
 
-.entry-header h1 a:hover {
+.entry-header h1 a:hover,
+.entry-header h1 a:focus {
 	color: #444;
 }
 
@@ -1771,7 +1788,8 @@ body.blog .comments-link {
 	transition: background-color .3s ease-in;
 }
 
-.blog-archive li a:hover {
+.blog-archive li a:hover,
+.blog-archive li a:focus {
 	background-color: #f3f3f3;
 	text-decoration: none;
 }
@@ -1789,7 +1807,8 @@ body.blog .comments-link {
 	text-decoration: underline;
 }
 
-#page footer.entry-meta a:hover {
+#page footer.entry-meta a:hover,
+#page footer.entry-meta a:focus {
 	color: #640034;
 	text-decoration: none;
 }
@@ -1860,7 +1879,9 @@ body.single .entry-content {
 }
 
 .nav-previous a:hover,
-.nav-next a:hover {
+.nav-next a:hover,
+.nav-previous a:focus,
+.nav-next a:focus {
 	color: #333;
 	background: none;
 	text-decoration: none;
@@ -1902,7 +1923,8 @@ body.single .entry-content {
 	text-decoration: none;
 }
 
-#page .widget h5 a:hover {
+#page .widget h5 a:hover,
+#page .widget h5 a:focus {
 	color: #333;
 	text-decoration: none;
 }
@@ -1918,7 +1940,8 @@ body.single .entry-content {
 	color: #2d168a;
 }
 
-#page .widget_text a:hover {
+#page .widget_text a:hover,
+#page .widget_text a:focus {
 	color: #2d168a;
 }
 
@@ -1995,7 +2018,8 @@ table a {
 	text-decoration: underline;
 }
 
-table a:hover {
+table a:hover,
+table a:focus {
 	color: #636363 !important;
 	text-decoration: none;
 }
@@ -2664,7 +2688,8 @@ table.tix_tickets_table th.tix-column-remaining {
 		color: #fff !important;
 	}
 
-	.main-navigation li ul li a:hover {
+	.main-navigation li ul li a:hover,
+	.main-navigation li ul li a:focus {
 		background: none;
 		color: rgba(255,255,255,0.65) !important;
 	}
@@ -3195,7 +3220,8 @@ footer.entry-meta span {
 		text-indent: 0;
 		text-decoration: none !important;
 }
-footer.entry-meta a:hover { text-decoration: underline !important; }
+footer.entry-meta a:hover,
+footer.entry-meta a:focus { text-decoration: underline !important; }
 footer.entry-meta a[rel~=category] {
 		font-weight: bold;
 }
@@ -3350,18 +3376,21 @@ body.archive #page .entry-header {
 	transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
-#page .cta:hover{
+#page .cta:hover,
+#page .cta:focus {
 	background: #a12c6c;
 	text-decoration: none;
 	font-weight: normal;
 }
 
-#page .cta:hover span{
+#page .cta:hover span,
+#page .cta:focus span {
 	left: 100%;
 	opacity: 0;
 }
 
-#page .cta:hover span + span{
+#page .cta:hover span + span
+#page .cta:focus span + span {
 	display: block;
 	left: 0;
 	opacity: 1;
@@ -3426,7 +3455,8 @@ table.wcpt-schedule {
 	transition: all .2s;
 }
 
-.wcpt-schedule a:hover {
+.wcpt-schedule a:hover,
+.wcpt-schedule a:focus {
 	text-shadow: 1px 1px 1px #bbb;
 	background-color: #f5f5f5;
 }
@@ -3498,7 +3528,7 @@ table.wcpt-schedule {
 	font-weight: bold
 }
 
-.speaker-sessions .speaker-session-names {
+.speaker-sessions .speaker-session-names a {
 	font-size: 1.25em;
 	font-weight: bold;
 }
