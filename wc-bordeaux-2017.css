@@ -2384,7 +2384,7 @@ table.tix_tickets_table th.tix-column-remaining {
 	}
 
 	.main-navigation li#menu-item-1977 ul { /* programme */
-		transform: skewx(20deg) translateX(15px);
+		transform: skewx(20deg) translateX(12px);
 	}
 	.main-navigation li#menu-item-1196  ul { /* billeterie */
 		transform: skewx(20deg) translateX(5px);
@@ -2587,7 +2587,7 @@ table.tix_tickets_table th.tix-column-remaining {
 	.main-navigation li a,
 	.main-navigation li ul,
 	.main-navigation li ul * {
-		transform: none;
+		transform: none !important;
 	}
 }
 
@@ -3406,7 +3406,7 @@ body.archive #page .entry-header {
 	opacity: 0;
 }
 
-#page .cta:hover span + span
+#page .cta:hover span + span,
 #page .cta:focus span + span {
 	display: block;
 	left: 0;
