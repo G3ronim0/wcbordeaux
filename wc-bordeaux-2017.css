@@ -745,9 +745,14 @@ li.current-menu-item {
 		left: -5px;*/
 	}
 }
-.main-navigation li ul {
-	transform: skewx(20deg);
-	left: 21px;
+.main-navigation li#menu-item-1977 ul { /* programme */
+	transform: skewx(20deg) translateX(15px);
+}
+.main-navigation li#menu-item-1196  ul { /* billeterie */
+	transform: skewx(20deg) translateX(5px);
+}
+.main-navigation li#menu-item-123 ul { /*infos */
+	transform: skewx(20deg) translateX(35px);
 }
 
 .main-navigation li ul * {
@@ -765,6 +770,7 @@ li.current-menu-item {
 	border-bottom: solid 1px #e8e8e8;
 	font-size: 14px;
 	padding: 10px;
+	width: auto !important;
 	background-color: #40162d !important;
 	color: white !important;
 }
@@ -2368,12 +2374,23 @@ table.tix_tickets_table th.tix-column-remaining {
 		padding: 0 4px;
 	}
 
-	.main-navigation li li a {
-		font-size: 14px;
-		padding: 0 6px;
+	.main-navigation li ul li a {
+		font-size: 13px;
+		padding: 8px;
+		line-height: 1.25;
 	}
 	.menu-primary-menu-container::before {
 		display: none;
+	}
+
+	.main-navigation li#menu-item-1977 ul { /* programme */
+		transform: skewx(20deg) translateX(15px);
+	}
+	.main-navigation li#menu-item-1196  ul { /* billeterie */
+		transform: skewx(20deg) translateX(5px);
+	}
+	.main-navigation li#menu-item-123 ul { /*infos */
+		transform: skewx(20deg) translateX(35px);
 	}
 
 	.home #content {
@@ -2383,7 +2400,7 @@ table.tix_tickets_table th.tix-column-remaining {
 	.page #main,
 	.single #main {
 		flex-direction: column;
-		padding:	0 2em;
+		padding: 0 2em;
 	}
 
 		.page #primary,
