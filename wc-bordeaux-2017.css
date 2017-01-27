@@ -3415,6 +3415,19 @@ body.archive #page .entry-header {
 	text-shadow: 0 0 2px black;
 }
 
+/* CTA de la home */
+#page #chamada-principal .cta {
+	padding: 0;
+	margin-top: 0;
+	border: none;
+	font-size: 16px;
+	letter-spacing: 1px;
+	border-radius: 0;
+}
+#page #chamada-principal .cta span {
+	line-height: 20px;
+}
+
 /*
 <a href="#" class="cta"><span>VOIR ICI !</span><span>ON Y VA →</span></a>
 */
