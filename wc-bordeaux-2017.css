@@ -3506,7 +3506,9 @@ table.wcpt-schedule {
 /* Infinite scroll */
 .infinite-wrap {
     border-top: 0;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    justify-content: space-around;
+	align-items: stretch;
 }
