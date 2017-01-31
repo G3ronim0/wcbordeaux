@@ -729,8 +729,8 @@ li.current-menu-item {
 	animation-direction: alternate;
 }
 @keyframes ticket {
-		0% { transform: scale(1); }
-		100% { transform: scale(0.9); }
+		0% { transform: scale(1); opacity: 0.4 }
+		100% { transform: scale(0.9); opacity: 0.3 }
 }
 #menu-item-1196.current-menu-item a::after {
 	display: none;
@@ -752,7 +752,7 @@ li.current-menu-item {
 	transform: skewx(20deg) translateX(5px);
 }
 .main-navigation li#menu-item-123 ul { /*infos */
-	transform: skewx(20deg) translateX(35px);
+	transform: skewx(20deg) translateX(45px);
 }
 
 .main-navigation li ul * {
