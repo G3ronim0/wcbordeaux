@@ -1315,6 +1315,7 @@ body.home #secondary {
 	text-decoration: none !important;
 	text-transform: uppercase;
 }
+#secondary .widget:first-child #chamada-principal .btn { padding: 10px }
 
 .home #secondary .widget:first-child #register-widget {
 	background-color: #ebebeb;
@@ -3582,7 +3583,7 @@ table.wcpt-schedule {
 
 /* logo contain */
 .home #post-1563 header .attachment-post-thumbnail,
-.home #post-1715 header .attachment-post-thumbnail
+.home #post-1715 header .attachment-post-thumbnail,
  { object-fit: contain }
 
 /* essai adblock */
@@ -3597,6 +3598,7 @@ table.wcpt-schedule {
 
 /* Infinite scroll */
 .infinite-wrap {
+	width: 100%;
     border-top: 0;
     margin-top: 40px;
     display: flex;
