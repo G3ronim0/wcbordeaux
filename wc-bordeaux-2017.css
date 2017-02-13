@@ -3298,6 +3298,7 @@ body.archive #page .entry-header {
     cursor: pointer;
     transition: background 0.3s ease-in;
 }
+#page .cta.long { min-width: 200px; }
 
 #page .cta .dashicons-before::before {
     width: auto;
@@ -3364,7 +3365,6 @@ body.archive #page .entry-header {
 #page #chamada-principal .cta span {
     line-height: 20px;
 }
-
 
 /*
 <a href="#" class="cta"><span>VOIR ICI !</span><span>ON Y VA →</span></a>
