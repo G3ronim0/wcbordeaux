@@ -2379,7 +2379,7 @@ table.tix_tickets_table th.tix-column-remaining {
         padding: 14px 0 0;
         height: 90px;
     }
-    #page .archive-header { height: auto; }
+    #page .entry-header { height: auto; }
     #page .wcb_sponsor .entry-header,
     #page .wcb_sponsor .archive-header {
         height: auto;
@@ -2394,7 +2394,7 @@ table.tix_tickets_table th.tix-column-remaining {
         padding: 50px 0 0;
     }
     body.single .entry-content {
-        padding: 25px 0 0;
+        padding: 0 0 25px 0;
     }
     .menu-primary-menu-container {
         background: none;
