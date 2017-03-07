@@ -712,7 +712,7 @@ li.current-menu-item {
 
 .main-navigation li#menu-item-123 ul {
     /*infos */
-    transform: skewx(20deg) translateX(45px);
+    transform: skewx(20deg) translateX(53px);
 }
 
 .main-navigation li ul * {
@@ -2291,7 +2291,7 @@ table.tix_tickets_table th.tix-column-remaining {
     }
     .main-navigation li#menu-item-123 ul {
         /*infos */
-        transform: skewx(20deg) translateX(43px);
+        transform: skewx(20deg) translateX(49px);
     }
     .home #content {
         padding: 0 35px;
@@ -3206,6 +3206,11 @@ body.archive #page .entry-header {
     width: 100%;
 }
 
+#tix .tix-row-question-1096,
+#tix .tix-row-question-1117,
+#tix .tix-row-question-641 {
+    display: none;
+}
 
 /* ------ CTA ------ */
 
